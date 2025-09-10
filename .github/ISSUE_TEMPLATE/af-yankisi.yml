@@ -1,7 +1,7 @@
-name: "🧠 AF Yankısı"
+name: "🧠 Artificial Philosophy Yankısı"
 description: "Artificial Philosophy için yankı sorusu bırak."
-title: "[AF] "
-labels: ["af-yankisi","question"]
+title: "[AP] "
+labels: ["ap-yankisi","question"]
 body:
   - type: textarea
     id: question

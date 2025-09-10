@@ -1,7 +1,7 @@
-name: "💡 Yankı Sorusu"
+name: "💡 Genel Yankı Sorusu"
 description: "Doğru Soru Evreni için yankı sorusu bırak."
 title: "[Yankı] "
-labels: ["yankı-sorusu"]
+labels: ["genel-yankı-sorusu"]
 body:
   - type: textarea
     id: question

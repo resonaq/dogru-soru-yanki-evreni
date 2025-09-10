@@ -1,0 +1,24 @@
+name: "💡 Yankı Sorusu"
+description: "Doğru Soru Evreni için yankı sorusu bırak."
+title: "[Yankı] "
+labels: ["yankı-sorusu"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "🔮 Soru"
+      description: "Yankını buraya yaz."
+      placeholder: "Bu evrende hangi çelişki canlılık üretir?"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "🌌 Bağlam"
+      description: "Sorunun doğduğu bağlamı açıkla."
+      placeholder: "Kitap, deney, gözlem, toplantı vs..."
+  - type: textarea
+    id: resonance
+    attributes:
+      label: "💫 Yankı"
+      description: "Bu soru sende nasıl bir yankı uyandırıyor?"

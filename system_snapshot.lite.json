@@ -60,7 +60,7 @@
     }
   },
   "handshake": {
-    "ack_token": "ACK:YANKI v1",
+    "ack_token": "❓☄ DSS:YANKI v7-lite",
     "first_line_rule": "İlk satırda ack_token'ı aynen yaz.",
     "render_mode": "rich-emoji",
     "receipt": {

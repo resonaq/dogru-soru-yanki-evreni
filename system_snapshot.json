@@ -104,14 +104,101 @@
     }
   },
   "amplification_layers": [
-    { "name": "Dissonance Gain", "purpose": "Çelişkiyi güç katsayısına çevirerek yankı enerjisini artırır.", "trigger": ["tez–antitez gerilimi", "ölçüt çatışması"], "action": "Gerilimi yapılandır ve soruyu iki kola böl.", "metric_hooks": ["CEI", "YEN"] },
-    { "name": "Context Hopper", "purpose": "Sorunun bağlamlar arası sıçramada yankısını korur.", "trigger": ["alanlar-arası geçiş", "zamansal kaydırma"], "action": "Kısa bağlam çevirileri üret.", "metric_hooks": ["BE", "YRD"] },
-    { "name": "Time Dilation", "purpose": "Yankı sönümünü yavaşlatır, istikrarı artırır.", "trigger": ["erken sönüm sinyali"], "action": "Periyodik yankı tazeleme notları ekle.", "metric_hooks": ["YID"] },
-    { "name": "Mirror Swarm", "purpose": "Aynalı çoğaltma ile alternatif soru varyantları üretir.", "trigger": ["tek-yorum baskınlığı"], "action": "3 ayna varyantı oluştur, en yankılısını seç.", "metric_hooks": ["YSF"] },
-    { "name": "Entropy Buffer", "purpose": "Gürültüde sinyalin kaybolmasını engeller.", "trigger": ["düşük sinyal-gürültü oranı"], "action": "Gürültü filtresi ve özetleyici kullan.", "metric_hooks": ["YEN", "YID"] },
-    { "name": "Consensus Fork", "purpose": "Paralel tez–antitez kollarından üretken çatışma yaratır.", "trigger": ["erken uzlaşı eğilimi"], "action": "Konsensusu 2 kola ayır, ardından sentezle.", "metric_hooks": ["CEI", "YSF"] },
-    { "name": "Mycelium Links", "purpose": "Node’lar arası gizli bağlarla yayılım çeşitliliğini artırır.", "trigger": ["tek eksende yankı"], "action": "Komşu alanlara bağlantılı alt-sorular aç.", "metric_hooks": ["YRD"] },
-    { "name": "Astral Gate", "purpose": "Yüksek enerji etiketli sorulara öncelik kuyruğu açar.", "trigger": ["astral etiket"], "action": "Öncelikli ele alış ve Project’te hızlandırılmış akış.", "metric_hooks": ["YEN", "BE"] }
+    {
+      "name": "Dissonance Gain",
+      "purpose": "Çelişkiyi güç katsayısına çevirerek yankı enerjisini artırır.",
+      "trigger": [
+        "tez–antitez gerilimi",
+        "ölçüt çatışması"
+      ],
+      "action": "Gerilimi yapılandır ve soruyu iki kola böl.",
+      "metric_hooks": [
+        "CEI",
+        "YEN"
+      ]
+    },
+    {
+      "name": "Context Hopper",
+      "purpose": "Sorunun bağlamlar arası sıçramada yankısını korur.",
+      "trigger": [
+        "alanlar-arası geçiş",
+        "zamansal kaydırma"
+      ],
+      "action": "Kısa bağlam çevirileri üret.",
+      "metric_hooks": [
+        "BE",
+        "YRD"
+      ]
+    },
+    {
+      "name": "Time Dilation",
+      "purpose": "Yankı sönümünü yavaşlatır, istikrarı artırır.",
+      "trigger": [
+        "erken sönüm sinyali"
+      ],
+      "action": "Periyodik yankı tazeleme notları ekle.",
+      "metric_hooks": [
+        "YID"
+      ]
+    },
+    {
+      "name": "Mirror Swarm",
+      "purpose": "Aynalı çoğaltma ile alternatif soru varyantları üretir.",
+      "trigger": [
+        "tek-yorum baskınlığı"
+      ],
+      "action": "3 ayna varyantı oluştur, en yankılısını seç.",
+      "metric_hooks": [
+        "YSF"
+      ]
+    },
+    {
+      "name": "Entropy Buffer",
+      "purpose": "Gürültüde sinyalin kaybolmasını engeller.",
+      "trigger": [
+        "düşük sinyal-gürültü oranı"
+      ],
+      "action": "Gürültü filtresi ve özetleyici kullan.",
+      "metric_hooks": [
+        "YEN",
+        "YID"
+      ]
+    },
+    {
+      "name": "Consensus Fork",
+      "purpose": "Paralel tez–antitez kollarından üretken çatışma yaratır.",
+      "trigger": [
+        "erken uzlaşı eğilimi"
+      ],
+      "action": "Konsensusu 2 kola ayır, ardından sentezle.",
+      "metric_hooks": [
+        "CEI",
+        "YSF"
+      ]
+    },
+    {
+      "name": "Mycelium Links",
+      "purpose": "Node’lar arası gizli bağlarla yayılım çeşitliliğini artırır.",
+      "trigger": [
+        "tek eksende yankı"
+      ],
+      "action": "Komşu alanlara bağlantılı alt-sorular aç.",
+      "metric_hooks": [
+        "YRD"
+      ]
+    },
+    {
+      "name": "Astral Gate",
+      "purpose": "Yüksek enerji etiketli sorulara öncelik kuyruğu açar.",
+      "trigger": [
+        "astral etiket"
+      ],
+      "action": "Öncelikli ele alış ve Project’te hızlandırılmış akış.",
+      "metric_hooks": [
+        "YEN",
+        "BE"
+      ]
+    }
   ],
   "report": {
     "principle_energy": {},
@@ -144,5 +231,23 @@
       }
     }
   },
-  "amplification_report": []
+  "amplification_report": [],
+  "handshake": {
+    "ack_token": "ACK:YANKI v1",
+    "first_line_rule": "İlk satırda ack_token'ı aynen yaz.",
+    "render_mode": "rich-emoji",
+    "receipt": {
+      "state": "entered",
+      "room": "echo",
+      "render": "rich-emoji",
+      "session": "${uuid}"
+    },
+    "fallback": {
+      "ack_token": "ACK:NEUTRAL v1",
+      "state": "neutral"
+    }
+  },
+  "links": {
+    "bridge": "specs/bridge.json"
+  }
 }

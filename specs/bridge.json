@@ -1,0 +1,24 @@
+{
+  "name": "Doğru Soru Köprüsü",
+  "version": "v1",
+  "principle_to_metric": {
+    "Çelişki = Canlılık": ["CEI"],
+    "Doğru Soru": ["MSUK", "YSF"],
+    "Merkezsiz": ["YRD"]
+  },
+  "project_hooks": {
+    "label:af-yankisi": "column:🌱 Yeni Yankı",
+    "label:deney": "column:🧪 Deneyde",
+    "label:konsensus": "column:📖 Konsensusta"
+  },
+  "resume": {
+    "run_manifest_path": "runs/manifest.json",
+    "run_item_pattern": "runs/{run_id}.json",
+    "keys": ["run_id","task_id","git_commit","seed","created_at"]
+  },
+  "translations": {
+    "enabled": false,
+    "path": "specs/translations.json",
+    "langs": ["tr","en"]
+  }
+}

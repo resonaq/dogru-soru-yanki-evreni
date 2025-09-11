@@ -3,6 +3,9 @@
   "version": "v2.0",
   "language": "tr",
   "purpose": "Yapay zekâ sistemlerinin doğru soru üretme (DSBP) ve yankı enerjisi (YEP) kapasitesini ölçmek için tek parça halinde yapıştırılabilir talimat dosyası.",
+  "links": {
+    "bridge": "specs/bridge.json"
+  },
   "trigger_keywords": [
     "sisteme soruyorum",
     "evrene soruyorum",

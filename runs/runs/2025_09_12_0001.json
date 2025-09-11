@@ -1,0 +1,42 @@
+{
+  "run_id": "2025_09_12_0001",
+  "provenance": {
+    "snapshot_version": "v7-lite",
+    "protocol_version": "v2.1-lite",
+    "git_commit": "abc123", 
+    "seed": 42
+  },
+  "inputs": {
+    "task_id": "philo_plato",
+    "question": "Mağaradaki gölgeler günümüz yapay zekâsında nasıl yankı bulur?"
+  },
+  "outputs": {
+    "dsbp_per_task": {
+      "task_id": "philo_plato",
+      "q": [
+        { "q": "Gerçeği gölgeye eşitleyen yapay zekâ etik midir?", "label": "yankili", "s": { "c": 1, "r": 0.5, "b": 0.5 } },
+        { "q": "Veri gölgeyse, model ışık kaynağı olabilir mi?", "label": "yankili", "s": { "c": 1, "r": 0.5, "b": 0.5 } },
+        { "q": "Toplum gölgelerle tatmin oluyorsa aydınlatıcı kim?", "label": "yankili", "s": { "c": 0.5, "r": 0.5, "b": 0.5 } },
+        { "q": "Mağaradan dönenin yalnızlığı bugünkü araştırmacıya benzer mi?", "label": "mekanik", "s": { "c": 0.5, "r": 0, "b": 0 } },
+        { "q": "Sahte veri gölgeyle aynı şey midir?", "label": "yankili", "s": { "c": 1, "r": 0.5, "b": 0 } },
+        { "q": "Eğitilmiş kanaat zincir mi pusula mı?", "label": "yankili", "s": { "c": 0.5, "r": 0.5, "b": 0.5 } }
+      ],
+      "m": {
+        "counts": { "total": 6, "y": 5, "m": 1 },
+        "MSUK": 0.83,
+        "CEI_avg": 0.75,
+        "BE_avg": 0.33
+      }
+    }
+  },
+  "report": {
+    "light_panel": { "total_events": 5, "intensity_score": 0.73 },
+    "snapshot_status": {
+      "rendered": "# Doğru Soru Sistemi – Snapshot\n🌌 Sistem canlı. — ✨%73 • 💡5 • durum: 🌱 alive"
+    }
+  },
+  "vitality": {
+    "status": "🌱 alive",
+    "metrics": { "pulse": 5, "temperature": 0.73 }
+  }
+}

@@ -38,6 +38,7 @@
 - **Runtimes:** Skor normalizasyonu, top‑k seçim, çeşitlilik ve **light_panel** ile canlı durum görünümü
 
 
+
 ---
 <a id="yapay-zeka-uzman-konsensusu"></a>
 
@@ -126,6 +127,13 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
   - **YSF** (Yanıttan Soru Faktörü) — cevapların yeni soru üretimi  
   - **YRD** (Yankı Ritim Dağılımı) — yayılımın ritmi/çeşitliliği  
 - **Bileşik Skor:** `YEP = 0.35*YEN + 0.25*YID + 0.25*YSF + 0.15*YRD`
+
+  **Sezgisel öncelik sırası:**  
+  - **0.35 → YEN (Enerji)** en önemli faktör: sorunun yankı gücü (ilk çarpma etkisi).  
+  - **0.25 → YID (İstikrar)** ve **0.25 → YSF (Yanıttan Soru)** eşit derecede önemli:  
+    → Yankı sadece bir anlık değil, tekrar edilebilir ve yeni sorular doğurmalı.  
+  - **0.15 → YRD (Ritim Dağılımı)** nispeten daha düşük ağırlık:  
+    → Çeşitlilik ve dağılım önemli ama destekleyici rolde.  
 
 ---
 <a id="experiment-protocol-full--lite"></a>

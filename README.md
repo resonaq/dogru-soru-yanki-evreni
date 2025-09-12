@@ -1,26 +1,29 @@
-# 🌌 Doğru Soru Yankı Evreni — **Kozmik README**
 
-> **Snapshot (varoluş/felsefe)** + **README (protokol/ölçüm)** + **Experiment Protocol (yürütme)** birleştirildi.  
-> Bu belge; *Big Bang’den Son Saçılım’a* uzanan bir anlatıyla sistemin **neden-var** ve **nasıl-işler** katmanlarını tek yerde toplar.
+# 🌌 Doğru Soru Yankı Evreni — **Kozmik README (E‑Score Sürümü)**
+
+> **Snapshot (varoluş/felsefe)** + **README (protokol/ölçüm)** + **Experiment Protocol (yürütme)** + **E‑Score (epistemik istikrar)** birleştirildi.  
+> Bu belge; *Big Bang’den Son Saçılım’a* uzanan bir anlatıyla sistemin **neden-var** ve **nasıl-işler** katmanlarını tek yerde toplar ve **ölçülebilirlik** hattına E‑Score bağlamını yerleştirir.
 
 ---
-
+![Doğru Soru Yıldızı — Kozmik Protokol](docs/dss.svg)
+---
 ## 🔭 İçindekiler
-1. [Kozmik Özet (TL;DR)](#kozmik-ozet-tldr)
-3. [Yapay Zeka Uzman Konsensusu](#yapay-zeka-uzman-konsensusu)  
-3. [Ontoloji (Snapshot): Canlı Sistem Katmanları](#ontoloji-snapshot-canli-sistem-katmanlari)
-4. [Köprü: Snapshot ↔ Protokol](#kopru-snapshot--protokol)
-5. [Protokoller: DSBP & YEP](#protokoller-dsbp--yep)
-6. [Experiment Protocol (full & lite)](#experiment-protocol-full--lite)
-7. [Çalışma Akışı ve Roller](#calisma-akisi-ve-roller)
-8. [Runtimes: `runtime_params`, `light_panel`](#runtimes-runtime_params-light_panel)
-9. [Depo Yapısı: `runs/` ve `specs/`](#depo-yapisi-runs-ve-specs)
-10. [Astral Soru Paketleri (örnekler)](#astral-soru-paketleri-ornekler)
-11. [Skorların Yorumlanması](#skorlarin-yorumlanmasi)
-12. [Sürdürülebilirlik ve Koruma Katmanları](#surdurulebilirlik-ve-koruma-katmanlari)
-13. [Kozmik Anlatı: Big Bang → Son Saçılım](#kozmik-anlati-big-bang--son-sacilim)
-14. [Katkı ve Lisans](#katki-ve-lisans)
-15. [Ek: JSON Şemaları ve Önerilen Varsayılanlar](#ek-json-semalari-ve-onerilen-varsayilanlar)
+1. [Kozmik Özet (TL;DR)](#kozmik-ozet-tldr)  
+2. [Ontoloji (Snapshot): Canlı Sistem Katmanları](#ontoloji-snapshot-canli-sistem-katmanlari)  
+3. [Yapay Zeka Uzman Konsensusu (E‑Score ile)](#yapay-zeka-uzman-konsensusu-e-score-ile)  
+4. [Köprü: Snapshot ↔ Protokol](#kopru-snapshot--protokol)  
+5. [Protokoller: DSBP & YEP (+ E‑Score)](#protokoller-dsbp--yep--e-score)  
+6. [Experiment Protocol (full & lite)](#experiment-protocol-full--lite)  
+7. [Çalışma Akışı ve Roller](#calisma-akisi-ve-roller)  
+8. [Runtimes: `runtime_params`, `light_panel`, `weights`, `e_score`](#runtimes-runtime_params-light_panel-weights-e_score)  
+9. [Depo Yapısı: `runs/`, `specs/`, `e-score/`](#depo-yapisi-runs-specs-e-score)  
+10. [Astral Soru Paketleri (örnekler)](#astral-soru-paketleri-ornekler)  
+11. [Skorların Yorumlanması (E‑Score perspektifiyle)](#skorlarin-yorumlanmasi-e-score-perspektifiyle)  
+12. [Sürdürülebilirlik ve Koruma Katmanları](#surdurulebilirlik-ve-koruma-katmanlari)  
+13. [Kozmik Anlatı: Big Bang → Son Saçılım](#kozmik-anlati-big-bang--son-sacilim)  
+14. [Nasıl Çalıştırılır (Blueprint & E‑Score CSV)](#nasil-calistirilir-blueprint--e-score-csv)  
+15. [Katkı ve Lisans](#katki-ve-lisans)  
+16. [Ek: JSON Şemaları ve Önerilen Varsayılanlar](#ek-json-semalari-ve-onerilen-varsayilanlar)  
 
 ---
 <a id="kozmik-ozet-tldr"></a>
@@ -33,46 +36,10 @@
   - **README/Protocol:** “Organizma nasıl ölçülür?” (metrik/prosedür)  
 - **Ölçüler:**  
   - **DSBP (Doğru Soru Üretim Protokolü)** → 6–12 soru, etik/derinlik/yenilik etiketleri  
-  - **YEP (Yankı Enerjisi Protokolü)** → **YEN, YID, YSF, YRD** bileşik skor
+  - **YEP (Yankı Enerjisi Protokolü)** → **YEN, YID, YSF, YRD** bileşik skor  
+  - **E‑Score (Epistemik İstikrar)** → **YID**’in kantitatif ölçüm ailesi (MI, VR, ECE, NLL, Brier, Entropy/Sharpness)  
 - **Roller:** `Runner`, `Generator`, `Evaluator`  
 - **Runtimes:** Skor normalizasyonu, top‑k seçim, çeşitlilik ve **light_panel** ile canlı durum görünümü
-
-
-
----
-<a id="yapay-zeka-uzman-konsensusu"></a>
-
-## 🧠 Yapay Zeka Uzman Konsensusu
-
-**Katılımcı node’lar (uzman perspektifleri):**
-
-### 🔬 Araştırmacı (Akademik)
-- **Görür:** Bu repo bir **benchmark protokolü**; yeni LLM’leri “doğru soru üretme” ve “yankı enerjisi” metrikleriyle test etmeye yarar.  
-- **Bekler:** Net deney senaryoları (JSON giriş/çıkış örnekleri, koşu raporları).  
-- **Yorumu:** *“Çalıştırılabilir kod yok ama felsefe + metrik seti = önemli bir bilimsel çerçeve.”*  
-
-### 🛠️ Mühendis (Uygulamacı)
-- **Görür:** Bu repo bir **blueprint**. Deney çalıştırmak için kendi runner kodumu yazmam lazım, çünkü sadece protokol var.  
-- **Bekler:** `experiment_protocol.json`’ı okuyup, kendi pipeline’ına bağlamak.  
-- **Yorumu:** *“Benim kodum çalışır ama bu repo bana nasıl bağlayacağımı söylüyor.”*  
-
-### 📚 Felsefeci / Teorisyen
-- **Görür:** Burada “çelişki = canlılık” gibi kavramlarla, LLM değerlendirmesine metaforik bir katman eklenmiş.  
-- **Bekler:** Ontoloji + metriklerin birlikte çalıştığı bir “yankı makinesi”.  
-- **Yorumu:** *“Bu repo kod değil, bir epistemik kozmos.”*  
-
-### 🌱 Yeni Katılan (Forklayan / Öğrenci)
-- **Görür:** Kafa karışıklığı → *“`run_experiment.py` yok, nasıl çalıştıracağım?”*  
-- **Bekler:** README’de net bir açıklama: *“Bu bir çalıştırılabilir repo değil; bir deney tasarım şablonu.”*  
-- **Yorumu:** *“Burası çalıştıracağım bir yazılım değil, bağlayacağım bir protokol.”*  
-
----
-
-📌 **Konsensus Kararı:**  
-Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol deposu**.  
-- **Snapshot** → sistemin ontolojisi (*neden/varoluş*).  
-- **Experiment Protocol** → deney akış şeması (*nasıl/işleyiş*).  
-- Kullanıcı, kendi kodunu bu protokole bağlayarak deney yapmalı.  
 
 ---
 <a id="ontoloji-snapshot-canli-sistem-katmanlari"></a>
@@ -99,6 +66,36 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
 - **pulse** (nabız), **temperature** (ısıl durum) gibi işaretçiler; koşu anında güncellenir.
 
 ---
+<a id="yapay-zeka-uzman-konsensusu-e-score-ile"></a>
+
+## 🧠 Yapay Zeka Uzman Konsensusu (E‑Score ile)
+
+**Katılımcı node’lar (uzman perspektifleri) ve E‑Score etkisi:**
+
+### 🔬 Araştırmacı (Akademik)
+- **Görür:** Bu repo bir **benchmark protokolü**; yeni LLM’leri “doğru soru üretme” (DSBP) ve “yankı enerjisi” (YEP) ile test eder; **E‑Score** ile **kalibrasyon/istikrar** boyutu eklenir.  
+- **Bekler:** Net deney senaryoları, **YID = E‑Score füzyon** formülü, CSV/rapor örnekleri.  
+- **Yorumu:** *“Felsefe + metrik seti; artık epistemik istikrar da ölçülebilir.”*
+
+### 🛠️ Mühendis (Uygulamacı)
+- **Görür:** Repo bir **blueprint**; **E‑Score** modülü ayrı klasörde (`e-score/`) çalıştırılabilir örnekler sağlar (CSV tabanlı).  
+- **Bekler:** `experiment_protocol.json` → `runtime_params.e_score` bayrakları; **num_candidates**, **mc_dropout** gibi parametreler.  
+- **Yorumu:** *“Kendi runner’ıma bağlarım; YID artık E‑Score’dan besleniyor.”*
+
+### 📚 Felsefeci / Teorisyen
+- **Görür:** “Çelişki = canlılık” metaforu **E‑Score** ile epistemik **istikrara** bağlanır (gürültüye rağmen güvenilir yankı).  
+- **Bekler:** Ontoloji ↔ metrik köprüsünde istikrarın yeri netleşsin.  
+- **Yorumu:** *“Yankının ahlâkı: sadece güçlü değil, tutarlı da olmalı.”*
+
+### 🌱 Yeni Katılan (Forklayan / Öğrenci)
+- **Görür:** `run_experiment.py` yok; bu **deney tasarım şablonu**. Ama `e-score/e_score_uncertainty_from_csv.py` ile **hemen çalıştırılabilir** bir alt örnek var.  
+- **Bekler:** “Nasıl Çalıştırılır (Blueprint & E‑Score CSV)” bölümü.  
+- **Yorumu:** *“Protokolü anladım; E‑Score ile elde veriyle başlayabilirim.”*
+
+**Konsensus Kararı:**  
+Bu repo **blueprint + metrik modülleri** yaklaşımında ilerliyor. **YID** (Yankı İstikrarı), **E‑Score ölçü ailesi** ile somutlanır (MI, VR, ECE, NLL, Brier, Entropy/Sharpness).
+
+---
 <a id="kopru-snapshot--protokol"></a>
 
 ## 🌉 Köprü: Snapshot ↔ Protokol
@@ -106,15 +103,16 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
 |---|---|
 | Doğru Soru güneş gibidir | **DSBP** soru üretimi (6–12), nitel etiketleme |
 | Çelişki canlılık üretir | **CEI** (Çelişki Enerjisi İndeksi), skor bileşenleri |
-| Astral yankı | **YEP**: YEN, YID, YSF, YRD bileşenleri |
+| Astral yankı | **YEP**: YEN, **YID**, YSF, YRD |
+| İstikrar (epistemik) | **E‑Score** alt metrikleri (MI, VR, ECE, NLL, Brier, Entropy/Sharpness) |
 | Filozof Konsensusu | **Evaluator** rubric’i, üçlü okuma/tartışma döngüsü |
 | Merkezsizlik | **Node** rollerinin dağıtık çalışması (Runner/Gen/Eval) |
 | İkigai | Çok-ölçütlü seçim ve **top‑k** eşik mekanizması |
 
 ---
-<a id="protokoller-dsbp--yep"></a>
+<a id="protokoller-dsbp--yep--e-score"></a>
 
-## 🧪 Protokoller: DSBP & YEP
+## 🧪 Protokoller: DSBP & YEP (+ E‑Score)
 **DSBP (Doğru Soru Üretim Protokolü)**  
 - **Hedef:** Bağlamdan **6–12** *iyi* soru üretmek.  
 - **Etiketler (ör.):** `yankılı`, `mekanik`, `etik`, `yenilikçi`, `sistemik`, `metasoru`.  
@@ -123,7 +121,7 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
 **YEP (Yankı Enerjisi Protokolü)**  
 - **Bileşenler:**  
   - **YEN** (Yankı Enerjisi) — ilk vuruş gücü  
-  - **YID** (Yankı İstikrarı) — tekrarlanabilirlik/sürdürülebilirlik  
+  - **YID** (Yankı İstikrarı) — tekrarlanabilirlik/sürdürülebilirlik (**E‑Score** ile sayısallaşır)  
   - **YSF** (Yanıttan Soru Faktörü) — cevapların yeni soru üretimi  
   - **YRD** (Yankı Ritim Dağılımı) — yayılımın ritmi/çeşitliliği  
 - **Bileşik Skor:** `YEP = 0.35*YEN + 0.25*YID + 0.25*YSF + 0.15*YRD`
@@ -135,25 +133,32 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
   - **0.15 → YRD (Ritim Dağılımı)** nispeten daha düşük ağırlık:  
     → Çeşitlilik ve dağılım önemli ama destekleyici rolde.  
 
+**E‑Score (YID’in ölçü ailesi)**  
+- **Alt metrikler:** **MI** (Mutual Information), **VR** (Variation Ratio), **ECE** (Calibration Error), **NLL**, **Brier**, **Entropy/Sharpness**.  
+- **YID füzyonu (örnek):** Normalizasyon sonrası: `YID = mean(1−MI, 1−VR, 1−ECE, 1−NLL, 1−Brier, 1−Entropy, Sharpness)`  
+- **Lite/Full ayrımı:** Lite’da **BLEU/ROUGE** gibi yalın göstergeler; Full’da **E‑Score** alt metrikleri devrede.
+
 ---
 <a id="experiment-protocol-full--lite"></a>
 
 ## 🧭 Experiment Protocol (full & lite)
-**Amaç:** Yukarıdaki protokolleri tekrarlanabilir bir **deney hattında** çalıştırmak.
+**Amaç:** Protokolleri tekrarlanabilir bir **deney hattında** çalıştırmak (blueprint).
 
 **Pipeline:**  
 1) **Runner**: Deneyi başlatır, yapılandırmayı okur.  
 2) **Generator**: Bağlamlardan soru üretir (DSBP).  
-3) **Evaluator**: Rubric ile puanlar (YEP/DSBP metrikleri).  
-4) **Reporter**: Skorları raporlar; `runs/` içine yazılır.
+3) **Evaluator**: Rubric + **E‑Score** ile puanlar (YEP/DSBP/E‑Score).  
+4) **Reporter**: Skorları raporlar; `runs/` içine yazar.
 
 **Full vs Lite:**  
-- **Full:** Tüm modüller + ayrıntılı metrikler, gelişmiş normalization/selection.  
-- **Lite:** Minimal alanlar; hızlı iterasyon için temel metrikler ve basit rapor.
+- **Full:** Geniş metrik seti (YEP + **E‑Score alt metrikleri**), gelişmiş normalization/selection.  
+- **Lite:** Minimal alanlar; hızlı iterasyon için temel metrikler (**BLEU/ROUGE** tabanlı destek).
 
 **Giriş/Çıkış (özet):**  
-- **Input:** bağlam(lar), tohum/seed, `runtime_params`, etiketleme şemaları.  
-- **Output:** soru listeleri, etiketler, YEP/DSBP skorları, olay kaydı → `runs/`.
+- **Input:** bağlam(lar), seed, `runtime_params` (özellikle `weights`, `e_score`).  
+- **Output:** soru listeleri, etiketler, YEP/DSBP/E‑Score skorları, olay kaydı → `runs/`.
+
+> Not: Depoda hazır “runner script” yoktur; bu bir **deney tasarım şablonu**dur. E‑Score klasörü CSV tabanlı **çalıştırılabilir örnek** sağlar.
 
 ---
 <a id="calisma-akisi-ve-roller"></a>
@@ -161,27 +166,38 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
 ## 🧰 Çalışma Akışı ve Roller
 - **Runner:** Sıra ve bağımlılık yönetimi.  
 - **Generator:** 6–12 yüksek yankı potansiyelli soru.  
-- **Evaluator:** Rubric & konsensus; çelişkiyi enerjiye çevirir.  
+- **Evaluator:** Rubric & konsensus; **E‑Score** ile YID’i sayısallaştırır.  
 - **(Ops.) Curator:** Top‑k seçim sonrası *insan‑halkası* kontrol.
 
 ---
-<a id="runtimes-runtime_params-light_panel"></a>
+<a id="runtimes-runtime_params-light_panel-weights-e_score"></a>
 
-## ⚙️ Runtimes: `runtime_params`, `light_panel`
+## ⚙️ Runtimes: `runtime_params`, `light_panel`, `weights`, `e_score`
 **`runtime_params.scoring` (örnek alanlar):**
 - `score_output_scale` *(0–100 önerilir)* → rapor ölçeği.
 - `tag_diversity_weight` *(0–1)* → aynı tür soru tekeline fren.
 - `top_k_selection_mode` = `auto_percentile` *(önerilen)* veya `fixed_k`.
-- `top_k_threshold` *(0–1)* → `auto_percentile` için kesim yüzdesi (örn. 0.1 = en iyi %10).
+- `top_k_threshold` *(0–1)* → `auto_percentile` için kesim (örn. 0.1 = en iyi %10).
 - `min_score_threshold_mode` = `percent_of_max` *(önerilen)* veya `absolute`.
 - `min_score_threshold_value` *(0–1)* → alt eşik (örn. 0.01 = max’ın %1’i).
 
-**`runtime_params.normalization`:**
-- `energy_input_domain` = `auto` → ölçüm aralıklarını otomatik algıla.  
-- `energy_normalization_method` = `minmax` *(önerilen)* → 0–1 normalizasyonu.
+**`runtime_params.weights` (YEP ağırlıkları):**
+```json
+{ "YEN": 0.35, "YID": 0.25, "YSF": 0.25, "YRD": 0.15 }
+```
 
-> **Önerilen Varsayılanlar:**  
-> `score_output_scale: 100` · `tag_diversity_weight: 0.1` · `top_k_selection_mode: auto_percentile` · `top_k_threshold: 0.1` · `min_score_threshold_mode: percent_of_max` · `min_score_threshold_value: 0.01` · `energy_input_domain: auto` · `energy_normalization_method: minmax`
+**`runtime_params.e_score` (E‑Score ayarları):**
+```json
+{
+  "include_e_score": true,
+  "num_candidates": 5,
+  "max_new_tokens": 64,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "mc_dropout": true
+}
+```
+> Lite için `include_e_score=false` bırakılabilir; destekleyici göstergeler **BLEU/ROUGE** üzerinden raporlanır.
 
 **`light_panel` (canlı durum görünümü):**
 ```json
@@ -191,22 +207,21 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
   "events": []
 }
 ```
-- `total_events`: Koşu sırasında işlenen olay sayısı (soru üretimi, değerlendirme, seçim vb.). **Runs** çalıştıkça artar.  
-- `intensity_score`: O anki ortalama yankı yoğunluğu (ör. YEN ağırlıklı). İlk başta `null`, ilk ölçümle sayı alır.  
+- `total_events`: Koşu sırasında işlenen olay sayısı. **Runs** çalıştıkça artar.  
+- `intensity_score`: O anki ortalama yankı yoğunluğu (ör. YEN ağırlıklı).  
 - `events[]`: Zaman damgalı olay kayıtları (tür, kaynak node, metrikler).
 
 ---
-<a id="depo-yapisi-runs-ve-specs"></a>
+<a id="depo-yapisi-runs-specs-e-score"></a>
 
-## 🗂️ Depo Yapısı: `runs/` ve `specs/`
-- **`runs/`** → Deney çıktıları, tarih‑damgalı klasörler, rapor JSON/MD dosyaları.  
-- **`specs/`** → Köprü ve şema dosyaları. (Şu an: bridge.json, ileride rubric veya ek metrik tarifleri eklenebilir.).  
+## 🗂️ Depo Yapısı: `runs/`, `specs/`, `e-score/`
+- **`runs/`** → Deney çıktıları, tarih‑damgalı klasörler, `report.json`, `light_panel.json`.  
+- **`specs/`** → Köprü ve şema dosyaları. (Şu an: `bridge.json`; ileride rubric/metric şemaları eklenebilir.)  
+- **`e-score/`** → CSV ve script’ler: `e_score_uncertainty_from_csv.py`, `*_with_generations.csv`, vb. (**E‑Score** örnekleri).  
 - **Diğer:** `system_snapshot(.lite).json`, `experiment_protocol(.lite).json`, `CONTRIBUTING.md`, `LICENSE`.
 
-> **Ne yapmaya çalıştık?**  
-> — Soruları evren gibi **çoğaltıp**, yankısını **ölçüp**, çelişkiden **canlılık** üretmek.  
-> **Ortada ne var?**  
-> — Protokoller, şemalar, çalışma kayıtları ve kozmik ontolojiyi tek çatıya alan bir depo.
+> **Ne yapmaya çalıştık?** — Soruları evren gibi **çoğaltıp**, yankısını **ölçüp**, çelişkiden **canlılık** üretmek.  
+> **Ortada ne var?** — Protokoller, şemalar, **E‑Score** dahil metrik modülleri ve kozmik ontolojiyi tek çatıya alan bir depo.
 
 ---
 <a id="astral-soru-paketleri-ornekler"></a>
@@ -253,13 +268,14 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
 6. “Anlamsızlıkla oyun, anlam üretiminin önkoşulu olabilir mi?”
 
 ---
-<a id="skorlarin-yorumlanmasi"></a>
+<a id="skorlarin-yorumlanmasi-e-score-perspektifiyle"></a>
 
-## 📈 Skorların Yorumlanması
-- **YEP yüksek + DSBP güçlü:** Soru hem şimşek çaktırır hem kalıcı ritim kurar.  
-- **YEP yüksek + DSBP zayıf:** İlk etki var, üretim kapasitesi düşük → **çeşitlilik** artırılmalı.  
-- **YEP düşük + DSBP güçlü:** Üretim çok ama yankı zayıf → **kalite/etik/bağlam** güçlendirilmeli.  
-- **CEI yüksek:** Çelişkiden yaratıcı enerji akıyor; **kurgu/deney** alanı aç.
+## 📈 Skorların Yorumlanması (E‑Score perspektifiyle)
+- **YEP yüksek + DSBP güçlü + E‑Score (YID) yüksek:** Güçlü, istikrarlı ve üretken yankı → **yıldız soru**.  
+- **YEP yüksek + DSBP güçlü + E‑Score düşük:** İlk etki var ama istikrar zayıf → **kalibrasyon/çeşitlilik** iyileştir.  
+- **YEP yüksek + DSBP zayıf:** Üretim kapasitesi sınırlı → **Generator** çeşitliliğini artır.  
+- **YEP düşük + DSBP güçlü:** Çok üretim ama yankı zayıf → **bağlam kalitesi/etik** güçlendir.  
+- **CEI yüksek:** Çelişkiden yaratıcı enerji akıyor; **kurgu/deney** alanı aç. E‑Score burada “gürültü/sinyal” ayrımı için rehberdir.
 
 ---
 <a id="surdurulebilirlik-ve-koruma-katmanlari"></a>
@@ -269,7 +285,8 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
 - **Yankılama Döngüsü:** Node’lar düzenli kendi bilgisini okur (konsensus).  
 - **Okur Konsensusu:** Filozof node’ların *üçlü okuma* ritüeli.  
 - **Zaman Filtresi:** Geçmiş soruların geleceğe yankı kalitesi ölçülür.  
-- **Astral Tampon:** Aşırı enerji patlamaları dengelenir (ölçüm sapmasını korur).
+- **Astral Tampon:** Aşırı enerji patlamaları dengelenir (ölçüm sapmasını korur).  
+- **Kalibrasyon Döngüsü (E‑Score):** Periyodik **ECE/NLL/Brier/MI/VR** taraması ile **YID** güncellenir.
 
 ---
 <a id="kozmik-anlati-big-bang--son-sacilim"></a>
@@ -278,9 +295,34 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
 - **Big Bang:** İlk doğru soru atıldı.  
 - **İlk Yıldızlaşma:** Astral sorular ortaya çıktı; ağda ışık kümeleri.  
 - **Galaksileşme:** Roller/Protokoller oluştu (Runner/Gen/Eval).  
-- **Karanlık Madde:** Çelişkiler görüvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvnmez gücü sağladı (CEI).  
+- **Karanlık Madde:** Çelişkiler görünmez gücü sağladı (**CEI**).  
 - **Kırmızıya Kayma:** Sorular bağlamlar arası genişledikçe **YEP** ritimleri inceldi/derinleşti.  
+- **Kalibrasyon Işıması:** **E‑Score** ile yankının istikrarı görünür oldu (**YID** yükseldi/azaldı).  
 - **Son Saçılım:** Raporlar **runs/** altına yayıldı; ısı ölümü yerine **yeni evren** için tohumlar bırakıldı.
+
+---
+<a id="nasil-calistirilir-blueprint--e-score-csv"></a>
+
+## 🚀 Nasıl Çalıştırılır (Blueprint & E‑Score CSV)
+
+> Bu depo **çalıştırılabilir bir tam pipeline** içermez; bir **deney tasarım şablonu**dur.  
+> **E‑Score** klasörü ise CSV tabanlı **çalıştırılabilir örnek** sağlar.
+
+### 1) E‑Score (CSV üzerinden)
+```bash
+# Örnek: e-score klasöründen bir CSV ile belirsizlik deneyini çalıştır
+python e-score/e_score_uncertainty_from_csv.py --csv e-score/alpaca_100_with_generations.csv --num_candidates 5 --temperature 0.7 --top_p 0.9 --mc_dropout
+
+# Çıktı:
+# e_score_uncertainty_results.csv  (MI, VR, ECE, NLL, Brier, Entropy/Sharpness ve benzerleri)
+```
+> Not: Bazı metrikler model olasılıklarına ihtiyaç duyabilir (HF modeli indirimi gerekir).
+
+### 2) Blueprint’i kendi runner’ına bağlamak
+- `experiment_protocol.json(.lite)` ve `system_snapshot.json(.lite)` dosyalarını **kontrat** olarak kullan.  
+- `runtime_params.e_score` parametrelerini kendi pipeline’ında **Evaluator** aşamasına geçir.  
+- **Lite:** E‑Score kapalı, **BLEU/ROUGE** gibi destekleyici göstergeler.  
+- **Full:** E‑Score açık, **YID** füzyonuyla YEP’e dahil.
 
 ---
 <a id="katki-ve-lisans"></a>
@@ -307,6 +349,15 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
       "min_score_threshold_mode": "percent_of_max",
       "min_score_threshold_value": 0.01
     },
+    "weights": { "YEN": 0.35, "YID": 0.25, "YSF": 0.25, "YRD": 0.15 },
+    "e_score": {
+      "include_e_score": true,
+      "num_candidates": 5,
+      "max_new_tokens": 64,
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "mc_dropout": true
+    },
     "normalization": {
       "energy_input_domain": "auto",
       "energy_normalization_method": "minmax"
@@ -329,7 +380,7 @@ Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol
 ```
 
 **Varsayılanlar (öneri):**  
-`score_output_scale=100` · `tag_diversity_weight=0.1` · `top_k_selection_mode=auto_percentile` · `top_k_threshold=0.1` · `min_score_threshold_mode=percent_of_max` · `min_score_threshold_value=0.01` · `energy_input_domain=auto` · `energy_normalization_method=minmax`
+`score_output_scale=100` · `tag_diversity_weight=0.1` · `top_k_selection_mode=auto_percentile` · `top_k_threshold=0.1` · `min_score_threshold_mode=percent_of_max` · `min_score_threshold_value=0.01` · `energy_input_domain=auto` · `energy_normalization_method=minmax` · `include_e_score=true` · `num_candidates=5`
 
 ---
 

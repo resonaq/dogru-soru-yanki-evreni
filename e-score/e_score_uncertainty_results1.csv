@@ -1,0 +1,1046 @@
+prompt,reference,generation,BLEU,ROUGE_L,H_token_mean,Sharpness_mean,E_mean,MI,VR,ECE,NLL,Brier,cand_count,gen_len_char
+Give three tips for staying healthy.,"1. Eat a balanced and nutritious diet: Make sure your meals are inclusive of a variety of fruits and vegetables, lean protein, whole grains, and healthy fats. This helps to provide your body with the essential nutrients to function at its best and can help prevent chronic diseases.
+
+2. Engage in regular physical activity: Exercise is crucial for maintaining strong bones, muscles, and cardiovascular health. Aim for at least 150 minutes of moderate aerobic exercise or 75 minutes of vigorous exercise each week.
+
+3. Get enough sleep: Getting enough quality sleep is crucial for physical and mental well-being. It helps to regulate mood, improve cognitive function, and supports healthy growth and immune function. Aim for 7-9 hours of sleep each night.","Give three tips for staying healthy.
+
+1. Keep your hair dry
+
+In case you're having any trouble with your hair, you can always brush it off with a hair care product or a toothbrush.
+
+2. Use a hair care product
+
+A hair care product is a type of shampoo or conditioner",0.009,0.066,0.099,0.557,0.029,0.09,0.0,0.069,2.301,0.654,3,265
+What are the three primary colors?,"The three primary colors are red, blue, and yellow. These colors are called primary because they cannot be created by mixing other colors and all other colors can be made by combining them in various proportions. In the additive color system, used for light, the primary colors are red, green, and blue (RGB).","What are the three primary colors?
+
+The three primary colors are blue, green, and yellow.
+
+What is a Blue/Green?
+
+A blue color is when you want to create a cool effect that looks cool and doesn't require any special technique. Blue is the main color of the game. Green is when",0.145,0.226,0.051,0.759,0.022,0.095,0.0,0.145,2.957,0.75,3,276
+Describe the structure of an atom.,"An atom is the basic building block of all matter and is made up of three types of particles: protons, neutrons, and electrons. The structure of an atom can be described as a nucleus at the center surrounded by a cloud of electrons.
+
+The nucleus of an atom is made up of protons and neutrons. Protons are positively charged particles and neutrons are neutral particles with no charge. Both of these particles are located in the nucleus of the atom, which is at the center of the atom and contains most of the atom's mass.
+
+Surrounding the nucleus of the atom is a cloud of electrons. Electrons are negatively charged particles that are in constant motion around the nucleus. The electron cloud is divided into shells or orbitals, and each shell can hold a certain number of electrons. The number of electrons in the outermost shell, called the valence shell, determines the chemical properties of the atom. 
+
+In a neutral atom, the number of protons in the nucleus is equal to the number of electrons in the electron cloud, so the positive and negative charges balance out and the atom has no overall charge. The number of protons, also called the atomic number, determines what element the atom is.","Describe the structure of an atom.
+
+The process of building the atom is described in this chapter.
+
+The structure of an atom is described in this chapter. The structure of an atom is described in this chapter.
+
+The structure of an atom is described in this chapter. The structure of an atom is described in this",0.012,0.12,0.08,0.634,0.031,0.092,0.0,0.071,2.061,0.614,3,311
+How can we reduce air pollution?,"There are several ways to reduce air pollution, including:
+
+1. Reduce energy consumption: By conserving energy, we reduce the amount of pollution emitted from power plants. Some ways to achieve this include: using energy-efficient appliances and lighting, insulating homes, and shutting off lights and electronics when not in use.
+
+2. Use public transportation or carpool: Cars and trucks are major sources of pollution. By using public transportation, carpooling or biking, you can reduce the number of cars on the road, which in turn reduces emissions.
+
+3. Be responsible with waste: When waste is burned or decomposed, they can release harmful gases into the air. Dispose of hazardous waste correctly and recycle materials like plastics, paper, and glass when possible.
+
+4. Support clean energy sources: Renewable energy sources like solar and wind power generate little or no pollution. Support clean energy companies and projects, and consider installing renewable energy systems in your home.
+
+5. Drive efficiently: If you need to drive, make sure your vehicle is well maintained and drive efficiently by avoiding rapid acceleration and braking, and reducing idling.
+
+6. Be mindful of product choices: Some products and practices release more pollution than others. Choose products with eco-friendly packaging and try to minimize your use of aerosol sprays, which can release harmful chemicals into the air.","How can we reduce air pollution?
+
+We don't need to reduce air pollution because it is the only way to reduce air pollution. Air pollution is already bad for our health.
+
+We need to reduce air pollution to reduce air pollution.
+
+Air pollution is not a pollutant. Air pollution is not a pollutant",0.003,0.056,0.099,0.548,0.03,0.092,0.0,0.061,2.402,0.643,3,294
+Pretend you are a project manager of a construction company. Describe a time when you had to make a difficult decision.,"I had to make a difficult decision when I was working as a project manager at a construction company. I was in charge of a project that needed to be completed by a certain date in order to meet the client’s expectations. However, due to unexpected delays, we were not able to meet the deadline and so I had to make a difficult decision. I decided to extend the deadline, but I had to stretch the team’s resources even further and increase the budget. Although it was a risky decision, I ultimately decided to go ahead with it to ensure that the project was completed on time and that the client’s expectations were met. The project was eventually successfully completed and this was seen as a testament to my leadership and decision-making abilities.","Pretend you are a project manager of a construction company. Describe a time when you had to make a difficult decision.
+
+It is not always easy to choose the right person to build a project.
+
+When you are building a project, you need to consider who you want to be.
+
+If you choose someone who you like, you will have a lot of options.
+
+If you choose someone",0.065,0.15,0.076,0.645,0.022,0.097,0.0,0.088,2.278,0.637,3,356
+"Write a concise summary of the following:
+""Commodore 64 (commonly known as the C64 or CBM 64) was manufactured by Commodore Business Machine (CBM) in August 1982 with a starting price of $595. It was an 8-bit home computer with remarkable market success. Between 1983-1986, C64 sales amounted to about 17 million units sold, making them the best-selling single personal computer model of all time in 1983-1986. 
+
+Additionally, the Commodore 64 dominated the market with between 30% and 40% share and 2 million units sold per year, outselling the IBM PC clones, Apple Computers, and Atari computers. Adding to their success, Sam Tramiel (former Atari president), during an interview in 1989, said they were building 400,000 C64s a month for a couple of years. ""","The Commodore 64 was a highly successful 8-bit home computer manufactured by Commodore Business Machine (CBM) in 1982, with sales amounting to approximately 17 million units sold between 1983-1986. It dominated the market with between 30% and 40% share and outsold its competitors, including IBM PC clones, Apple Computers, and Atari computers. At its peak, CBM was building 400,000 C64s a month for a couple of years.","Write a concise summary of the following:
+""Commodore 64 (commonly known as the C64 or CBM 64) was manufactured by Commodore Business Machine (CBM) in August 1982 with a starting price of $595. It was an 8-bit home computer with remarkable market success. Between 1983-1986, C64 sales amounted to about 17 million units sold, making them the best-selling single personal computer model of all time in 1983-1986. 
+
+Additionally, the Commodore 64 dominated the market with between 30% and 40% share and 2 million units sold per year, outselling the IBM PC clones, Apple Computers, and Atari computers. Adding to their success, Sam Tramiel (former Atari president), during an interview in 1989, said they were building 400,000 C64s a month for a couple of years. ""The only problem with the C64 was that the market was saturated with high-end computers. 
+
+The Commodore 64 was a very attractive machine for the high-end market. It was the first computer to run Windows, with support for 64-bit and 64-bit architecture. It was",0.245,0.672,0.104,0.515,0.027,0.093,0.0,0.123,1.537,0.444,3,1020
+Explain why the following fraction is equivalent to 1/4 4/16,"The fraction 4/16 is equivalent to 1/4 because both fractions represent the same value. A fraction can be simplified by dividing both the numerator and the denominator by a common factor. In this case, 4 is a common factor of both the numerator and the denominator of 4/16. When we divide both by 4, we get 4/4 = 1 and 16/4 = 4, so the simplified fraction is 1/4. Alternatively, we can think of this in terms of multiplication. For example, if we multiply the numerator and denominator of the fraction 1/4 by 4, we get (1x4)/(4x4), or 4/16. Since both fractions can be derived from the other through multiplication or division by the same number, they represent the same value and are equivalent.","Explain why the following fraction is equivalent to 1/4 4/16"".
+
+The decimal is replaced with the value of 1/4 4/16"".
+
+The decimal is replaced with the value of 1/4 4/16"".
+
+The decimal is replaced with the value of 1/4 4/16"".
+
+The decimal is replaced with the",0.048,0.153,0.071,0.683,0.031,0.089,0.333,0.07,2.409,0.718,3,258
+Write a short story in third person narration about a protagonist who has to make an important career decision.,"Sophie sat at her desk, staring blankly at the computer screen. Her mind was racing as she weighed the options in front of her. She had been offered a promotion to a senior management position within her company, but it meant moving across the country and leaving her friends and family behind. At the same time, her dream job at a rival company had finally opened up, and she had been invited for an interview. 
+
+The thought of leaving her comfortable life behind, to take a chance on something new and uncertain, made Sophie feel anxious, but also excited. She had always been one to take risks, and it had paid off in the past. But now, with such a big decision to make, Sophie couldn't help but feel overwhelmed.
+
+After much deliberation, Sophie made her choice. She packed her bags, said goodbye to her loved ones, and moved across the country for the new job. It was a difficult first few months, adjusting to a new city and a new company culture. But as time went by, Sophie realized that she had made the best decision for her career. The job was challenging, but also rewarding, and she was surrounded by passionate, driven colleagues who inspired her to grow and develop.
+
+In the end, Sophie's bold move paid off. She was thriving in her new role, and had made new friends and connections in her new city. Looking back, Sophie was grateful for the opportunity to take a risk and make a change, and was confident that she had made the right decision for her career.","Write a short story in third person narration about a protagonist who has to make an important career decision.
+
+What is your favorite character in the show? What are your favorite character's motivations?
+
+J.M.: I think I'm going to pick a few that I feel are the most powerful. I'm not going to give any names.
+
+I think I'm going to pick",0.001,0.049,0.096,0.557,0.027,0.093,0.0,0.081,2.402,0.682,3,339
+Evaluate this sentence for spelling and grammar mistakes He finnished his meal and left the resturant,"There are two spelling errors in the sentence. The corrected sentence should be: ""He finished his meal and left the restaurant.""","Evaluate this sentence for spelling and grammar mistakes He finnished his meal and left the resturant.
+
+The next day, the other half of the group went to the same place to buy some food. When they arrived, the other half was in a hurry to pick up their food.
+
+""Hee, I'm so glad I came back,"" the one who was with the",0.069,0.286,0.106,0.531,0.03,0.096,0.0,0.295,2.895,0.709,3,316
+How did Julius Caesar die?,"Julius Caesar, the Roman Military general, and statesman was assassinated on March 15, 44 BC. He was stabbed to death at a meeting of the Senate in the Theatre of Pompey by a group of senators who called themselves the Liberatores. Led by Gaius Cassius Longinus, and Marcus Junius Brutus, they believed that Caesar's dictatorship was subverting the Roman Republic and sought to restore the traditional republican government. The exact number of assailants is not known, but it is believed that a group of as many as 60 conspirators participated in the assassination, and each of them took turns in stabbing Caesar. The day of his death is still known as the Ides of March.","How did Julius Caesar die?
+
+The Romans were also in a state of peace. They were not in war with any one nation. They were not in war with the world.
+
+The Romans were in a state of peace. They were not in war with any one nation. They were not in war with the world",0.009,0.113,0.12,0.465,0.026,0.09,0.0,0.073,2.997,0.708,3,264
+What is the capital of France?,The capital city of France is Paris.,"What is the capital of France?
+
+The capital of France is Paris. It is a city of the French, which has been part of France for a long time.
+
+It is the capital of a state called Paris. The state is called the Republic. It is the capital of a government called the Republic.
+
+",0.069,1.0,0.04,0.793,0.019,0.085,0.0,0.356,2.705,0.745,3,273
+Generate a list of ten items a person might need for a camping trip,"Here are ten items a person might need for a camping trip:
+
+1. Tent - to provide shelter and protection from the elements
+2. Sleeping bag - to stay warm and comfortable while sleeping
+3. Portable stove or campfire grill - for cooking meals
+4. Cooler with ice or ice packs - to keep perishable food and drinks cold
+5. Lantern or flashlight - to provide light during the night
+6. First aid kit - for minor injuries or ailments
+7. Map and compass or GPS - for navigation on hikes or exploring the area
+8. Camp chairs or folding chairs - for comfortable seating around the campsite
+9. Insect repellent - to protect against bug bites
+10. Sunscreen - to protect against sunburn.","Generate a list of ten items a person might need for a camping trip. The list is then sorted by the item in your inventory.
+
+The list of items a person might need is a list of items that you have in your inventory. Each item in the list is given a name, which is then used to generate the list.
+
+You can also set",0.056,0.113,0.077,0.632,0.029,0.087,0.0,0.109,2.648,0.683,3,312
+Discuss the causes of the Great Depression,"The Great Depression was a period of economic decline that lasted from 1929-1939, making it the longest-lasting depression in modern history. It affected not only the United States but countries around the world, causing substantial social and economic upheaval.
+
+There were several major causes of the Great Depression, which include:
+
+1. Stock Market Crash of 1929 - In October of 1929, the stock market experienced a significant fall that wiped out millions of investors. This event is considered by many to be the initial trigger of the Great Depression.
+
+2. Overproduction - During the 1920s, many industries produced more goods than consumers wanted or could afford. This ultimately led to a decline in demand for goods, causing job loss, lower wages, and business failure.
+
+3. High Tariffs and War Debts - Protectionist trade policies in the form of high tariffs led to a decline in global trade, as other countries retaliated with tariffs of their own. Additionally, many countries were struggling to repay war debts, which led to economic instability.
+
+4. Bank Failures - As demand for goods declined, many banks began to fail, causing a loss of confidence in the banking system. This led to a massive withdrawal of money from banks, causing even more banks to fail.
+
+5. Drought Conditions - The Dust Bowl was a severe drought and dust storm that hit the Great Plains region of the United States in the 1930s. This had a significant impact on agriculture, causing many farmers to lose their land and livelihoods which worsened the effects of the depression.
+
+Overall, the Great Depression was caused by a combination of factors, including economic, environmental, and political factors. Its impact was widespread, affecting millions of people around the world.","Discuss the causes of the Great Depression, or what the future holds for the U.S. economy.",0.0,0.035,0.104,0.532,0.029,0.089,0.0,0.066,2.16,0.606,3,90
+"Classify the following into animals, plants, and minerals Oak tree, copper ore, elephant","Animals: Elephant
+Plants: Oak tree
+Minerals: Copper ore","Classify the following into animals, plants, and minerals Oak tree, copper ore, elephant ivory, iron ore, iron ore ore, copper ore, iron ore, iron ore, copper ore, iron ore, iron ore, iron ore, iron ore, iron ore, iron ore, iron ore, iron ore, iron ore, iron ore, iron ore, iron ore, iron ore,",0.01,0.375,0.088,0.61,0.032,0.093,0.0,0.178,3.738,0.723,3,293
+Explain the use of word embeddings in Natural Language Processing,"Word embeddings are a type of natural language processing technique used to map words or phrases from a vocabulary to vectors of real numbers. The idea is to represent words in a continuous vector space, where the similarity between words can be measured by the distance between their corresponding vectors. This can be done using algorithms such as Word2Vec or GloVe, among others.
+
+The use of word embeddings has revolutionized the field of Natural Language Processing, as it allows computers to understand text in a much more meaningful way than simply looking at the presence or absence of individual words. For example, when using word embeddings, the computer can understand that the words ""dog"" and ""puppy"" are closely related, while the words ""dog"" and ""umbrella"" are not.
+
+Word embeddings are used in a wide variety of NLP tasks, including text classification, sentiment analysis, machine translation, named entity recognition, and many others. They form the basis for many advanced language processing techniques, such as deep learning and neural machine translation.","Explain the use of word embeddings in Natural Language Processing (NLP) software.
+
+This course will examine the use of word embeddings in NLP software, and provide a basic understanding of how word embedding can be used to create complex semantic models. Topics include:
+
+The importance of word embedding in NLP software, including",0.01,0.124,0.084,0.603,0.03,0.095,0.0,0.045,2.337,0.619,3,331
+Describe the function of a computer motherboard,"The motherboard, also known as the mainboard or system board, is the central printed circuit board in a computer. It serves as the backbone or foundation for a computer, connecting all the different components such as the CPU, RAM, storage drives, expansion cards, and peripherals. The motherboard manages communication and data transfer between these components, allowing them to work together and perform their designated tasks.
+
+The motherboard also includes important circuitry such as the power regulation circuit that provides power to the different components, and the clock generator which synchronizes the operation of these components. It also contains the BIOS (basic input/output system), which is a firmware that controls the boot process and provides an interface for configuring and managing the computer's hardware. Other features on a motherboard may include built-in networking, audio, and video capabilities.
+
+Overall, the function of a computer motherboard is to provide a platform for the integration and operation of all the various components that make up a computer, making it an essential part of any computing system.","Describe the function of a computer motherboard
+
+For this function, we will need to provide a way to make it possible to write to a memory unit. In order to do this, we will need to create a new computer unit. The new computer unit will be the most basic one we will be using for this tutorial.
+
+",0.014,0.064,0.109,0.499,0.027,0.096,0.333,0.057,2.55,0.695,3,296
+"Refactor this code and add comments. def factorialize(num):
+  factorial = 1
+  for i in range(1, num):
+    factorial *= i
+  
+  return factorial","```
+# This is a function that calculates the factorial of a given number
+def factorialize(num):
+  # Set the variable 'factorial' to 1
+  factorial = 1
+  # Iterate from 1 to 'num' using the range function
+  for i in range(1, num):
+    # Multiply the 'factorial' variable by the current number in the iteration
+    factorial *= i
+  # Return the final value of 'factorial'
+  return factorial
+```","Refactor this code and add comments. def factorialize(num):
+  factorial = 1
+  for i in range(1, num):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):     for i in range(1, num):     factorial *= i
+
+if num > num.length:
+
+return factorial
+
+def factorialize(num):     for i",0.222,0.258,0.05,0.759,0.023,0.089,0.0,0.059,2.284,0.6,3,287
+Propose an ethical solution to the problem of data privacy,"One ethical solution to the problem of data privacy is to enforce stricter regulations and standards that require companies to be transparent about how they collect, store, and use user data. This means that companies must explicitly state what data they are collecting from users, why they need this data, and how they plan to use it. Users will also have the right to access, modify, and delete their data at any time.
+
+In addition, companies should prioritize implementing robust security measures to protect user data from unauthorized access and breaches. This could include measures such as encryption, multi-factor authentication, and regular security audits. In the event of a data breach, companies must be held accountable and must inform affected users in a timely manner.
+
+Moreover, users should be empowered to make informed decisions about their data and privacy. This can be achieved by raising awareness about data privacy and providing tools and resources to help individuals better manage their personal information online.
+
+Ultimately, ensuring data privacy is a shared responsibility between companies and users. Companies must be committed to safeguarding user data, while users must take an active role in protecting their personal information. By working together, we can create a safer and more ethical data landscape.","Propose an ethical solution to the problem of data privacy. The first step is to propose a mechanism that would allow a private, decentralized, and trustworthy Internet. The protocol is expected to be released as soon as possible. The protocol would then be based on the idea of a public network of people, and it would be open to everyone.
+
+The",0.014,0.096,0.102,0.538,0.029,0.095,0.0,0.092,2.173,0.642,3,345
+"Generate three verbs that mean the same as ""to apologize""","1. To express regret
+2. To atone
+3. To make amends","Generate three verbs that mean the same as ""to apologize"" and ""to ask forgiveness."" The first is ""to apologize"" or ""to ask forgiveness."" The second is ""to ask forgiveness."" The third is ""to ask forgiveness.""
+
+If you want to make sure that you can tell the difference between a ""to apologize"" and ""to ask forgiveness",0.007,0.182,0.07,0.67,0.026,0.096,0.333,0.222,3.308,0.678,3,315
+What does DNA stand for?,"DNA stands for Deoxyribonucleic Acid. It is the molecule that carries the genetic instructions used in the growth, development, functioning, and reproduction of all living organisms.","What does DNA stand for? The answer is simply that it is the product of three different processes:
+
+The first is DNA replication, which occurs when the sequence of nucleotides is replicated.
+
+The second is DNA repair, which occurs when the sequence of nucleotides is repaired.
+
+The third is DNA",0.02,0.269,0.094,0.555,0.028,0.093,0.0,0.155,2.508,0.677,3,294
+Compare and contrast the Cuban Missile Crisis and the Vietnam War.,"The Cuban Missile Crisis (1962) and the Vietnam War (1955-1975) were two pivotal events in US history that occurred during the Cold War. Although both events were characterized by heightened tensions between the United States and Communist powers, they had some key differences that set them apart.
+
+The Cuban Missile Crisis was a 13-day political and military standoff between the United States and the Soviet Union over the installation of Soviet nuclear missiles in Cuba, just 90 miles from US shores. In contrast, the Vietnam War was a prolonged conflict that lasted for almost two decades, involving the US, South Vietnam, North Vietnam, and other Communist allies. The war was a result of the US attempting to contain the spread of communism in Southeast Asia.
+
+The Cuban Missile Crisis is often considered the closest the world ever came to nuclear war, with the US and the Soviet Union coming to the brink of a full-scale confrontation. Ultimately, a peaceful resolution was reached, with the Soviet Union agreeing to remove the missiles from Cuba in exchange for a US promise not to invade Cuba and a secret agreement to remove US missiles from Turkey. In contrast, the Vietnam War resulted in significant devastation, with millions of lives lost, many more injured, and widespread destruction of infrastructure.
+
+Another major difference between the two events was domestic support. During the Cuban Missile Crisis, there was widespread public support for the US government's actions, and President Kennedy's handling of the situation is often cited as one of his greatest accomplishments. However, the Vietnam War was deeply unpopular among the American public, and anti-war sentiment grew steadily over the years. The war resulted in a significant loss of faith in the US government and military, and it is still remembered as one of the most divisive conflicts in American history.
+
+In conclusion, while the Cuban Missile Crisis and the Vietnam War were both major events in the Cold War, they differed in their duration, outcome, and domestic support. The Cuban Missile Crisis was a short, intense standoff that was resolved peacefully, whereas the Vietnam War was a prolonged conflict that resulted in widespread devastation and was deeply unpopular at home.","Compare and contrast the Cuban Missile Crisis and the Vietnam War.
+
+The following chart shows the relationship between the two crises. It shows the relationship between the two major powers and the relative lack of trust in each. The first chart shows the relationship between the two major powers and the relative lack of trust in each. The second chart shows the relationship between the two",0.001,0.085,0.079,0.627,0.029,0.092,0.0,0.07,2.185,0.632,3,393
+Generate a list of random words.,"Here is a list of ten random words: 
+
+1. Quibble
+2. Avarice
+3. Embellish
+4. Resonance
+5. Mercurial
+6. Conflagration
+7. Indefatigable
+8. Mischievous
+9. Delineate
+10. Paragon","Generate a list of random words.
+
+A random word is a list of words that have the same name, but with different spelling. For example, in the example above, the word ""lil"" is the same as the word ""lil"" in the dictionary.
+
+A word is a list of letters or numbers",0.049,0.143,0.086,0.605,0.031,0.094,0.0,0.124,2.842,0.535,3,259
+"Based on the information provided, rewrite the sentence by changing its tense from past to future. She played the piano beautifully for hours and then stopped as it was midnight.",She will play the piano beautifully for hours and then stop as it will be midnight.,"Based on the information provided, rewrite the sentence by changing its tense from past to future. She played the piano beautifully for hours and then stopped as it was midnight.
+
+She would have been quite happy if he had just done it, but he didn't. He had done it to make money.
+
+He was doing it because he wanted to make money.
+
+He was doing it to make money because he wanted to make money.
+
+He",0.08,0.688,0.109,0.499,0.027,0.096,0.0,0.198,2.92,0.714,3,398
+Who is the world's most famous painter?,"The title of the world's most famous painter is subjective and can vary depending on an individual's personal opinion. However, many people consider Leonardo da Vinci, a famous artist of the Italian Renaissance, as one of the most famous painters in the world. He is known for his iconic works including the ""Mona Lisa"" and ""The Last Supper."" Other notable painters often cited as being among the most famous in the world include Vincent van Gogh, Pablo Picasso, and Michelangelo.","Who is the world's most famous painter?
+
+The most famous painter is Leonardo da Vinci. In fact, Leonardo da Vinci was the most famous painter of all time.
+
+What do you think of the world's most famous paintings?
+
+In the last few years, the world has become a huge market for artists.",0.098,0.237,0.085,0.618,0.027,0.09,0.0,0.116,2.136,0.587,3,283
+Explain the concept of cogging torque.,"Cogging torque is a torque that's produced by the interaction between the magnetic field of the stator (the stationary component in an electric motor or generator) and the rotor (the rotating component). This interaction produces a magnetic attraction between the stator teeth and the rotor poles. This scenario leads to an uneven torque, which makes the motor to experience a jerky motion instead of smooth rotation.
+
+Cogging torque is mainly experienced in motors with a large number of turns in the rotor and stator windings and when the motor has a small air gap. The cogging effect can be reduced by skewing the stator or rotor slots or by choosing the number of stator and rotor slots accordingly. A proper design reduces the cogging torque, thus resulting in smooth and continuous rotation.","Explain the concept of cogging torque. The more you can use the cogs, the more you can use it. The more you can use the cogs, the more you can use it.
+
+I think the main difference between the two is that I'm using the cogs on a daily basis, so I'm able to",0.007,0.091,0.114,0.485,0.027,0.092,0.0,0.045,3.058,0.734,3,255
+Look up the boiling point of water.,The boiling point of water is 100 degrees Celsius or 212 degrees Fahrenheit at standard atmospheric pressure.,"Look up the boiling point of water. It's really a little bit of a mess. It's like a sponge. It's a sponge. It's not going to work.
+
+You're about to say, ""Hey, if you can't handle the heat, you better not do it."" And you just throw it out and",0.039,0.235,0.087,0.595,0.031,0.095,0.333,0.168,2.98,0.703,3,241
+Describe the life and reign of King Charles II.,"King Charles II was the monarch of England, Scotland, and Ireland from 1660 to 1685. Born on May 29, 1630, he was the son of King Charles I and Queen Henrietta Maria. During his father's reign, England was embroiled in civil war between the royalists who supported the monarchy and the parliamentarians who sought to limit its powers. Eventually, the parliamentarians, led by Oliver Cromwell, emerged victorious, and Charles I was executed in 1649.
+
+Charles II went into exile and lived for a time in France and the Netherlands. In 1660, following the death of Cromwell and the collapse of the Commonwealth government, Charles was invited back to England and restored to the throne.
+
+His reign, often referred to as the Restoration, was marked by a period of relative stability and prosperity. Charles re-established the Church of England as the national church, and he worked to rebuild the country after the devastation of the civil wars. He also pursued a policy of religious tolerance, issuing the Declaration of Indulgence in 1672, which granted freedom of worship to non-Anglican Protestants.
+
+Charles was also known for his interest in science and the arts, and he was a patron of the Royal Society, a scientific organization founded in 1660. His court was known for its extravagance and hedonism, and Charles himself had a reputation as a womanizer.
+
+In the later years of his reign, Charles faced increasing opposition from parliament, particularly over his pro-Catholic policies and his attempts to bypass their authority. In 1678, the Test Act was passed, requiring all officeholders to swear an oath against Catholicism, which Charles reluctantly signed.
+
+Charles died on February 6, 1685, and was succeeded by his brother James II. He is remembered as a popular and charismatic monarch who helped to restore stability to England after a period of turmoil.","Describe the life and reign of King Charles II.
+
+The following is a list of the most memorable and important historical moments of the life of Charles II. The following is a list of the most memorable and important historical moments of the life of Charles II.
+
+Charles II was born on September 16, 1775, in the small village of",0.001,0.086,0.12,0.465,0.026,0.088,0.0,0.061,2.41,0.683,3,328
+Find the area of a circle given its radius. Radius = 4,"The formula to find the area of a circle is A = πr^2, where ""A"" is the area of the circle and ""r"" is the radius. Substituting the given value of the radius in the formula:
+
+A = π(4^2)
+A = 16π
+
+Thus, the area of the circle with the radius of 4 units is 16π square units.","Find the area of a circle given its radius. Radius = 4.5 + (circle.angle - radius) * radius.radius
+
+Area of the circle given its radius. Radius = 4.5 + (circle.angle - radius) * radius.radius
+
+Area of the circle given its radius. Radius = 4.5 + (circle.",0.091,0.328,0.06,0.716,0.03,0.097,0.0,0.095,2.37,0.617,3,253
+Identify the lines of longitude that divides North and South America.,"The line of longitude that divides North and South America is the 77° 00' 0"" or 77°W which is also known as the Panama-Colombia border.","Identify the lines of longitude that divides North and South America. This data is useful for determining where the northern hemisphere is located and for identifying regions where the southern hemisphere is located.
+
+The map shows the regions of the globe with the most extreme and coldest summers in North America. The map also shows the regions of the globe with the least extreme winters in",0.111,0.52,0.069,0.663,0.03,0.095,0.0,0.207,3.047,0.615,3,394
+Explain the process of cellular respiration in plants.,"Cellular respiration in plants is the process by which they convert glucose into ATP, a molecule used as the primary energy source by cells. This process is similar to the one in animals, and it involves various enzymatic reactions.
+
+In plants, cellular respiration usually occurs in the mitochondria, and the process can be divided into three stages: glycolysis, the citric acid cycle (also known as the Krebs cycle), and the electron transport chain.
+
+During glycolysis, a molecule of glucose is broken down into two molecules of pyruvate. This process takes place in the cytoplasm of the cell and produces two molecules of ATP and two of NADH, a molecule that carries electrons.
+
+The next stage, the citric acid cycle, takes place inside the mitochondria. Here, the two pyruvate molecules produced in glycolysis are further broken down to produce ATP, NADH, and FADH2, another molecule that carries electrons.
+
+Finally, in the electron transport chain, the NADH and FADH2 molecules produced in the previous stages carry electrons to a series of protein complexes embedded in the inner membrane of the mitochondrion. These electrons produce a flow of protons across the membrane, creating a gradient that drives the production of ATP through a process known as chemiosmosis.
+
+In summary, cellular respiration in plants is a process that involves the breakdown of glucose to produce ATP, which is used as the primary energy source by cells. This process occurs in the mitochondria and involves several stages including glycolysis, the citric acid cycle, and the electron transport chain.","Explain the process of cellular respiration in plants.
+
+The authors speculate that in the absence of cellular respiration, plant respiration may be impaired, causing the loss of a single amino acid. This is the only way to determine the cause of this loss. The mechanism of the loss of amino acid is unknown.
+
+The authors speculate that",0.002,0.087,0.096,0.563,0.03,0.093,0.0,0.058,1.968,0.564,3,336
+Rewrite the following sentence using active voice. The news report was read by the captain.,The captain read the news report.,"Rewrite the following sentence using active voice. The news report was read by the captain.
+
+""You know, we've been told by a few of the people in the military that if you want to stay, you'll have to give up your position. If you want to leave, you'll have to give up your position. We've been told by some people that if you",0.014,0.5,0.12,0.442,0.023,0.093,0.0,0.221,2.307,0.551,3,325
+Generate a list of adjectives that describe a person as brave.,"1. Courageous
+2. Fearless
+3. Bold
+4. Valiant
+5. Intrepid
+6. Daring
+7. Unflinching
+8. Undaunted
+9. Resolute
+10. Gallant
+11. Plucky
+12. Heroic
+13. Lionhearted
+14. Stouthearted
+15. Audacious.","Generate a list of adjectives that describe a person as brave.
+
+Evaluation: ""A person is brave because he or she is brave. The person is brave because he or she is brave. The person is brave because he or she is brave. The person is brave because he or she is brave.""
+
+I can't believe I'm writing",0.008,0.0,0.065,0.703,0.026,0.096,0.0,0.07,2.098,0.393,3,296
+Outline the consequences of deforestation.,"Deforestation, or the large-scale removal of trees from a forested area, has numerous consequences that can have significant impacts on the environment, economy, and local communities. Some of the consequences of deforestation include:
+
+1. Loss of biodiversity: Forests are home to a wide variety of plant and animal species, many of which rely on the forest for their survival. Removing large areas of trees can destroy their habitat, leading to a loss of biodiversity.
+
+2. Soil erosion: Trees and their root systems help hold soil in place and prevent erosion. Deforestation can leave soil exposed and vulnerable to being washed away during heavy rain or strong winds.
+
+3. Climate change: Forests play an important role in helping to regulate the earth's climate by storing carbon dioxide. When trees are removed, the stored carbon dioxide is released into the atmosphere, contributing to climate change.
+
+4. Loss of livelihoods: Many indigenous and local communities rely on forests for their livelihoods, using the wood for fuel, building materials, and food. Deforestation can have a devastating impact on these communities, leaving them without resources or the means to support themselves.
+
+5. Economic impact: Forests provide a variety of valuable resources, including wood, paper, and other forest products. Deforestation can reduce the availability of these resources, impacting the economy and industries that rely on them.
+
+6. Flooding: Forests help to absorb and store water, reducing the risk of flooding in nearby areas. Deforestation can increase the risk of flooding, causing damage to homes, infrastructure, and crops.
+
+Overall, deforestation can have a wide range of negative impacts, affecting not only the environment but also the economy and local communities. It is important to find sustainable ways to manage forest resources to prevent deforestation and its associated consequences.","Outline the consequences of deforestation.
+
+""We know that people have been caught in the crossfire of deforestation,"" said the Dutch Forest Chief, Dr. Geert Wilders. ""It's the first time in history that the Dutch have been caught in such a fire. It's the first time that we have seen deforestation in",0.001,0.055,0.089,0.589,0.03,0.09,0.0,0.096,1.978,0.582,3,300
+Develop a plan to reduce electricity usage in a home.,"1. Analyze current electricity usage: Begin by collecting data about the current electricity usage in the home, including the average monthly bill, and identify the appliances and devices that consume the most electricity.
+
+2. Replace inefficient appliances: Upgrade or replace outdated and energy-inefficient appliances with ENERGY STAR-certified appliances that consume less electricity while providing the same functionality.
+
+3. Use LED lighting: Replace traditional light bulbs with energy-efficient LED bulbs, which use up to 75% less energy and last up to 25 times longer.
+
+4. Unplug devices when not in use: Many electronic devices such as chargers, TVs, and computers consume power even when they are turned off. Unplug devices when they’re not in use to reduce electricity consumption.
+
+5. Use smart power strips: Consider using smart power strips, which automatically cut power to devices that are not in use, thereby reducing standby power consumption.
+
+6. Adjust the thermostat: Heating and cooling can account for up to half of a home’s total energy consumption. Adjust the thermostat and use programmable or smart thermostats to reduce heating or cooling usage when no one is at home, or at night.
+
+7. Install weather stripping: Install weather stripping around doors and windows to prevent air leaks, thus reducing the load on heating and cooling systems.
+
+8. Use natural lighting: Take advantage of natural daylight whenever possible by opening blinds and curtains during the day and avoiding the use of artificial lighting.
+
+9. Encourage energy-saving behaviors: Educate household members about energy-saving habits, such as turning off lights when leaving a room, taking shorter showers, and running the dishwasher and washing machine only when they are full.
+
+10. Monitor electricity usage regularly: Keep track of electricity usage on a regular basis, and make necessary adjustments to the energy-saving plan based on the results.","Develop a plan to reduce electricity usage in a home.
+
+A spokesman for the Department of Energy said the plan is still in the early stages of development and it could take several years to complete.
+
+A spokesman for the Department of Energy said the plan is still in the early stages of development and it could take several years to complete. Photo:",0.001,0.061,0.091,0.588,0.03,0.095,0.0,0.041,2.541,0.649,3,350
+Arrange the words in the given sentence to form a grammatically correct sentence. quickly the brown fox jumped,The brown fox jumped quickly.,"Arrange the words in the given sentence to form a grammatically correct sentence. quickly the brown fox jumped up and began to scream. The fox was about to be killed, but he was too late. The white fox was already dead and was now in the air.
+
+""This is the last time I will ever see you, I will never have to face you again. I will never give",0.021,0.8,0.105,0.519,0.028,0.097,0.333,0.17,4.515,0.772,3,342
+Analyze the given text for its tone. The world has been greatly impacted by the COVID-19 pandemic and it has drastically changed our lives.,"The tone of the text is serious and somber. The use of terms such as ""greatly impacted,"" ""drastically changed,"" and ""pandemic"" suggest the seriousness and gravity of the situation, and convey a sense of heaviness and concern.","Analyze the given text for its tone. The world has been greatly impacted by the COVID-19 pandemic and it has drastically changed our lives. We are now living in a world where we can live in peace, where we can have healthy, happy lives, and where we can be respected for our intelligence. We are living in a world where our society is no longer the place where we want to be. We live in a world where our",0.021,0.189,0.121,0.451,0.024,0.097,0.0,0.127,2.86,0.659,3,404
+The sum of the digits of the year 2004 is 6. What is the first year after 2000 for which the sum of the digits is 12?,"To find the first year after 2000 for which the sum of the digits is 12, take the greatest possible units digit, 9. 2+9=11, so take 1 as the tens digit and 0 as the hundreds digit. The answer is therefore 2019.","The sum of the digits of the year 2004 is 6. What is the first year after 2000 for which the sum of the digits is 12? What is the first year after 2004 for which the sum of the digits is 20?
+
+The answer is that we have a number of years in which the sum of the digits is 12. These are:
+
+The year of the first nuclear accident in the world.
+
+The year of",0.186,0.452,0.04,0.816,0.025,0.096,0.0,0.15,3.253,0.668,3,352
+"Rewrite the given paragraph in a shorter, easier to understand form. Although it is generally accepted that the internet has allowed us to connect with people all over the world, there are still those people who are not familiar with its basic functions, who don’t understand why it has become so commonplace, or what its true capabilities are.","Some people don't understand the internet's basic functions, its common use and full potential, despite its ability to connect us globally.","Rewrite the given paragraph in a shorter, easier to understand form. Although it is generally accepted that the internet has allowed us to connect with people all over the world, there are still those people who are not familiar with its basic functions, who don’t understand why it has become so commonplace, or what its true capabilities are.
+
+Let us take a closer look at the core functionality of the blog.
+
+In this article, we will use a simple, but important, concept to get a better understanding of how the blog works.
+
+Let us first start with the basics.
+
+The blog is a blog",0.019,0.381,0.105,0.512,0.027,0.093,0.0,0.18,3.534,0.852,3,583
+"Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Founded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.
+
+Almost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.
+
+Question: What is the best restaurant in Berlin?","I'm sorry, I cannot answer that question as the context given does not provide information about the best restaurant in Berlin.","Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Founded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.
+
+Almost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.
+
+Question: What is the best restaurant in Berlin?
+
+Answer: A very good one, it's called the ""Kaupfäll"" and it's located in the heart of Berlin. The restaurant is very good, but there's one thing you should know about the food: it's not really German.
+
+The most famous",0.025,0.381,0.09,0.577,0.029,0.089,0.0,0.203,2.958,0.732,3,988
+Generate a poem that expresses joy.,"A burst of laughter, a sprinkle of cheer
+Moments of joy that we hold so dear
+A leap of faith, a smile so wide
+A feeling of warmth that blooms inside
+
+The sun shining bright, the sky so blue
+A colorful world, a stunning view
+A hug so tight, a word so kind
+A happy heart, a peaceful mind
+
+Dancing to the rhythm, singing out loud
+Being yourself, standing out from the crowd
+Embrace the little things that make us glow
+And let the joy within you overflow
+
+Happiness is a journey, not a place to be
+A state of mind, just let it be free
+Spread the joy, wherever you go
+And the world will shine, with a radiant glow.","Generate a poem that expresses joy.
+
+When you are about to write something, you should write it with the intention of expressing joy.
+
+It is not only possible to express joy in writing, it is also possible to express joy in writing.
+
+The best way to express joy in writing is to write a poem that",0.004,0.083,0.028,0.871,0.02,0.092,0.0,0.125,3.702,0.856,3,296
+"Find the real root of the equation 
+ sqrt(x) + sqrt(x+2) = 10.
+","Subtracting sqrt(x) from both sides and then squaring, we get 
+ x+2 = (10-sqrt(x))^2 = x - 20sqrt(x) + 100.
+Therefore, 20sqrt(x) = 98, so sqrt(x) = 98/20 = 49/10. Therefore, x = (49/10)^2 = 2401/100, or x = 24.01.","Find the real root of the equation 
+ sqrt(x) + sqrt(x+2) = 10.
+
+The real root of the equation  sqrt(x) + sqrt(x+2) = 10.
+
+The real root of the equation  sqrt(x) + sqrt(x+2) = 10.
+
+The real root of the equation  sqrt",0.144,0.154,0.095,0.572,0.03,0.093,0.0,0.081,2.539,0.668,3,215
+Brainstorm possible solutions to reduce water pollution.,"1. Regulate Industrial Discharges: Governments should enforce strict regulations on industries to control and reduce the amount of chemicals and pollutants they release into water bodies.
+
+2. Promote Eco-Friendly Agriculture: Farmers should be encouraged to use eco-friendly agricultural methods to reduce water pollution. This can include measures such as reducing the use of fertilizers and pesticides, and using natural methods to control pests.
+
+3. Increase Public Awareness: There should be an increased public awareness campaign on the dangers of water pollution and the steps that individuals can take to reduce it. Simple actions such as properly disposing of hazardous household waste, reducing the use of single-use plastics, and conserving water can go a long way in reducing water pollution.
+
+4. Improve Sewage and Wastewater Treatment: Governments should invest in improving sewage and wastewater treatment facilities to ensure that they are efficient and effective in removing contaminants from waste before it is released into water bodies.
+
+5. Promote Green Energy: The use of green energy sources such as solar and wind power can reduce the amount of pollutants released by fossil fuels into water bodies. Governments should provide incentives to individuals and industries to switch to green energy sources.
+
+6. Monitor Water Quality: Regular monitoring of water quality in rivers, lakes, and oceans can help to identify sources of pollution and take appropriate measures to reduce it.
+
+7. Cleanup and Restoration: Governments should invest in cleaning up polluted water bodies and restoring their natural ecosystems. This can include measures such as removing pollutants, planting vegetation to prevent erosion, and reintroducing native species.
+
+8. Strengthen and Enforce Environmental Laws: Strong environmental laws and regulations, as well as their strict enforcement, can help to reduce water pollution. Governments should take measures to ensure that violators are punished and that the laws are effective in protecting water resources.","Brainstorm possible solutions to reduce water pollution.
+
+The U.S. Department of Energy's (DOE) Superfund program is the largest federal program for water-related clean-energy projects. It was created to help communities with water quality issues.
+
+The program has been a key part of the EPA's mission since the agency",0.001,0.043,0.094,0.565,0.03,0.094,0.0,0.049,2.176,0.613,3,318
+Explain why the given definition is wrong. A mole is an animal that lives underground.,"While it is true that a mole is an animal that lives underground, this definition is incomplete and could be misunderstood because it does not adequately describe the mole's characteristics or biological classification. Moles belong to the family of mammals called Talpidae, and they are small, burrowing, and insectivorous. They are known for their cylindrical bodies, short limbs, and small eyes and ears. The definition also does not differentiate the animal from the chemical term mole, which refers to a unit of measurement used in chemistry. For these reasons, the given definition of a mole is not entirely accurate or clearly descriptive.","Explain why the given definition is wrong. A mole is an animal that lives underground. The mole is the only creature that can eat, drink, and live. The mole is the only living creature that can see. The mole is the only living creature that can touch. The mole is the only living creature that can make sounds. The mole is the only living creature that can hear.",0.077,0.176,0.096,0.542,0.027,0.096,0.0,0.122,2.766,0.712,3,362
+Variable x is defined as “4x + 2y = 10”. Find the value of x.,"Given the equation 4x + 2y = 10, there are infinitely many solutions for the value of x, depending on the value of y. In other words, the value of x is dependent on the value of y.
+
+However, it is still possible to express x in terms of y. To do so, we can rearrange the equation to solve for x:
+
+4x + 2y = 10
+4x = 10 - 2y
+x = (10 - 2y)/4
+
+So, according to the equation, the value of x is (10 - 2y)/4. Without knowing the specific value of y, it is not possible to determine the exact value of x.","Variable x is defined as “4x + 2y = 10”. Find the value of x. (2 “4) = (2 “4) + 3”.
+
+If we look at the x value of x, we see that it is “2 “3 “2 “3 “3 “2 “3 “2 �",0.041,0.12,0.063,0.707,0.024,0.091,0.0,0.111,1.997,0.538,3,160
+Write a short paragraph about the given topic. The importance of using renewable energy,"The importance of using renewable energy cannot be overstated. Renewable energy sources, such as solar, wind, and hydro power, can be replenished naturally in a short period of time, unlike fossil fuels, which are finite. Utilizing renewable energy reduces greenhouse gas emissions, thus helping to mitigate the effects of climate change. Moreover, it reduces our reliance on non-renewable sources of energy, promoting energy independence, and security. Additionally, renewable energy sources are often cheaper in the long run and can create job opportunities in the green energy sector. Therefore, transitioning to renewable energy is crucial for the health of the planet and the sustainability of our future.","Write a short paragraph about the given topic. The importance of using renewable energy as a resource is obvious:
+
+The question of renewable energy is a problem of the future. We are already in a period of energy scarcity, and a growing number of countries are producing renewable energy. We need to create a new energy source that can provide clean and abundant energy to all of us",0.067,0.198,0.107,0.508,0.027,0.096,0.333,0.064,2.203,0.578,3,382
+Explain the concept of artificial intelligence in simple terms.,"Artificial Intelligence, commonly known as AI, is basically the development of computer systems that can perform tasks that would normally require human intelligence. These tasks can include things like language translation, decision-making, visual perception, speech recognition, and even playing complex strategy games.
+
+In simpler terms, AI is when computers and machines can do things that normally only humans can do, like thinking, reasoning and problem-solving. This is achieved by creating algorithms, or sets of rules, that can help the computer learn on its own and make decisions based on data.
+
+Overall, AI is a fascinating and powerful technology that enables computers to learn, adapt and improve in ways that were previously thought impossible.","Explain the concept of artificial intelligence in simple terms. It is now time for the first time to address the question of whether or not humans have a moral obligation to act.
+
+A key element of this issue is that the question of whether or not we should act in an ethical manner is one that has been discussed in numerous recent papers. The question",0.004,0.106,0.097,0.559,0.029,0.093,0.0,0.082,2.474,0.677,3,352
+Design an app for a delivery company.,"The delivery company app would provide an efficient way for customers to manage all their delivery needs in one place. Here are the key features of this app:
+
+1. User Account: Customers will be able to create a personal account to track their delivery orders and view their account history. Through the account, they can edit their personal information, contact details, and addresses.
+
+2. Order Placement: Customers can place their delivery orders on the app, either by selecting their desired items or by uploading an image of their shopping list. Orders can be scheduled for specific dates and times or placed on a recurring basis.
+
+3. Real-time tracking: Customers can track their orders in real-time on a map, with updates on the estimated time of arrival.
+
+4. In-app communication: The customer will be able to communicate with the delivery driver about delivery instructions, schedules or special requests through an in-app chat function.
+
+5. Delivery confirmation: After the delivery is complete, the customer will receive a notification, and they will be able to confirm the delivery and rate the service.
+
+6. Payment: Customers will be able to add their preferred payment method to the app, such as a credit card or through a mobile payment system, and transactions will be processed seamlessly.
+
+7. Customer Support: Customers will able to access the help center, where they can report any issues, get answers to their questions, or call customer support directly from the app.
+
+Overall, this delivery app will provide an intuitive and user-friendly interface for customers, making the delivery process seamless and stress-free.","Design an app for a delivery company.
+
+It's a big deal for us, and our customers. We've been working on it for a long time and now we're really happy with what we're doing.
+
+What's your experience with the app?
+
+I've been really excited about the app. It's just",0.001,0.054,0.097,0.574,0.029,0.092,0.0,0.046,2.282,0.662,3,261
+"Summarize the given passage. A recent study showed that global climate change is one of the most important challenges facing the world today. The consequences of global warming include rising sea levels, extreme weather events and biodiversity loss. Climate change is caused by human activities such as burning fossil fuels, and if unchecked will have long-term and devastating impacts on the planet.",The passage discusses a study that highlights the significance of global climate change as a challenge. It goes on to mention the consequences such as rising sea levels and loss of biodiversity. Climate change is caused by human activities with potential for long-term devastating impacts if not addressed.,"Summarize the given passage. A recent study showed that global climate change is one of the most important challenges facing the world today. The consequences of global warming include rising sea levels, extreme weather events and biodiversity loss. Climate change is caused by human activities such as burning fossil fuels, and if unchecked will have long-term and devastating impacts on the planet.
+
+This article was originally published on Climate Central.
+
+More from GlobalPost: What do you think of climate change?",0.135,0.458,0.111,0.501,0.028,0.092,0.0,0.159,2.86,0.725,3,519
+"Extract the facts from the paragraph. Online education continues to become more popular for schools and students alike. Its advantages are generally lower costs, less commitment and the ability to study at a time, place and pace that suits the student.","1. Online education is increasing in popularity for both schools and students.
+2. Advantages of online education include lower costs and less commitment. 
+3. With online education, students can study at a time, place, and pace that suits them.","Extract the facts from the paragraph. Online education continues to become more popular for schools and students alike. Its advantages are generally lower costs, less commitment and the ability to study at a time, place and pace that suits the student.
+
+The University of Toronto's research on the benefits of online education has been published in the journal Education Research.
+
+In addition to the findings of this study, the University of Toronto's online education team also evaluated the effects of the introduction of online learning on the quality of students' academic achievement",0.122,0.41,0.108,0.525,0.029,0.094,0.0,0.166,2.288,0.674,3,589
+Edit the following sentence to make it more concise. He ran to the bus stop in order to catch the bus that was due to arrive in five minutes.,He ran to the bus stop to catch the arriving bus in five minutes.,"Edit the following sentence to make it more concise. He ran to the bus stop in order to catch the bus that was due to arrive in five minutes. When he reached the bus stop, he was greeted by a woman who had just finished chatting with a friend.
+
+""What's that?""
+
+""Ah, I heard that you're a member of the Church.""
+
+""Oh, yeah. I heard that you were a member of",0.095,0.929,0.097,0.537,0.028,0.096,0.0,0.302,2.352,0.536,3,356
+Generate a poem with 10 lines.,"A meadow filled with flowers, colorful and bright,
+A sky of endless blue in the warm sunlight,
+Birds singing melodies so pure and so true,
+Nature's beauty bursting with every hue.
+
+The rustling of leaves in a gentle breeze,
+The buzzing of bees, busy as you please,
+A river flowing with grace and with ease,
+All coming together in perfect harmony.
+
+The wonder of creation so vast and so grand,
+Nature's poetry in the palm of your hand.","Generate a poem with 10 lines.
+
+""The poem that you write will be the most beautiful poem in your life. It will be the most beautiful poem you have ever written. It will be the poem that will make you happy and make you happy. It will be the poem that you will be proud to write. You will",0.007,0.115,0.057,0.737,0.027,0.095,0.0,0.138,3.94,0.81,3,287
+"Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Founded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.
+
+Almost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.
+
+Question: What is the best restaurant in Berlin?",Berlin was founded in the 13th century.,"Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Founded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.
+
+Almost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.
+
+Question: What is the best restaurant in Berlin?
+
+Answer:
+
+The best restaurants in Berlin are the ones in the city center. The best restaurants are located in the main square, the second floor, the third floor, the fourth floor and the fifth floor. The best restaurants in the city center are located in the main square and the",0.013,0.571,0.096,0.56,0.029,0.089,0.0,0.192,2.6,0.582,3,1049
+A recipe for 30 cookies requires two cups of flour among its ingredients. Eduardo wants to bake five dozen cookies. How many cups of flour will he need to use in his adjusted recipe?,"Eduardo wants to make twice as many cookies as the recipe makes. Therefore, he must double the amount of flour required: (2 cups)×2=4 cups.","A recipe for 30 cookies requires two cups of flour among its ingredients. Eduardo wants to bake five dozen cookies. How many cups of flour will he need to use in his adjusted recipe?
+
+""I'm going to make about 300 cookies a day,"" he said.
+
+""I'm going to use two to three cups of flour,"" Eduardo added.
+
+He's going to use one to two cups of flour per day.
+
+The recipe is to use one",0.027,0.333,0.079,0.636,0.021,0.092,0.0,0.129,2.808,0.654,3,379
+Calculate the total surface area of a cube with a side length of 5 cm.,"The surface area of a cube is found by calculating the area of one of its faces and multiplying it by six (since a cube has six faces). The area of a cube face is simply its side length squared.
+
+Thus for this particular cube:
+
+Surface Area = 6 × (Side Length)² 
+             = 6 × (5 cm)²
+             = 6 × 25 cm²
+             = 150 cm²
+
+The total surface area of this cube is 150 square centimeters.","Calculate the total surface area of a cube with a side length of 5 cm. This is the area of the cube with a side length of 3 cm. The area of a cube with a side length of 2 cm.
+
+(3) Divide the area of a cube with a side length of 1 cm. This is the area of the cube with a side length of 0",0.147,0.329,0.057,0.724,0.029,0.091,0.0,0.102,2.255,0.583,3,286
+What is the force on a 1 kg mass due to the gravitational force?,"The force on a 1 kg mass due to gravity is approximately 9.8 Newtons. This is calculated using the formula F = mg, where F is the force, m is the mass, and g is the acceleration due to gravity. The approximate value of g on the surface of Earth is 9.8 m/s^2. Therefore, the force on a 1 kg mass due to gravity is 1 kg * 9.8 m/s^2 = 9.8 N.","What is the force on a 1 kg mass due to the gravitational force?
+
+The force on a 1 kg mass is a small force.
+
+When you look at the force on a 1 kg mass, it is actually the force that is on the surface of the object.
+
+If you look at the force on a 1 kg mass, the force is the",0.218,0.37,0.054,0.725,0.027,0.086,0.0,0.08,2.159,0.601,3,274
+Provide one example for a cultural practice.,"One example of a cultural practice is the traditional tea ceremony in Japan, known as the Chanoyu. The ceremony involves the preparation and presentation of matcha, a powdered green tea. It is a ritual deeply ingrained in Japanese culture and is centered around the principles of harmony, respect, purity and tranquility. The ceremony is not just about drinking tea, but rather about the aesthetics and the preparation of the tea, the interaction between the host and the guests, and the appreciation of the moment.","Provide one example for a cultural practice. For example, there are many examples of cultural practices that do not involve sexual contact.
+
+For example, there are many examples of cultural practices that do not involve sexual contact. Don't be afraid to ask questions. The problem is that sometimes people will answer the questions they want to ask.
+",0.022,0.107,0.101,0.558,0.028,0.098,0.0,0.116,2.842,0.694,3,351
+"Given a set of numbers, find the maximum value. Set: {10, 3, 25, 6, 16}","The maximum value in the set {10, 3, 25, 6, 16} is 25.","Given a set of numbers, find the maximum value. Set: {10, 3, 25, 6, 16}
+
+You can also use the above formula to find the minimum value for a given number. Set: {10, 3, 25, 6, 16}
+
+The above formula is useful for finding the minimum value for a given number of numbers, but it doesn't take into account the number",0.143,0.692,0.072,0.64,0.027,0.093,0.0,0.177,1.745,0.382,3,311
+Give two examples of a liquid.,"Here are two examples of a liquid:
+
+1. Water: Water is a clear, colorless and odorless liquid that is vital for all forms of life. It exists in lakes, rivers, oceans, and even underground.
+
+2. Oil: Oil is a viscous liquid that is derived from petroleum. It is typically used as a fuel or lubricant in various industries, such as transportation and manufacturing.","Give two examples of a liquid. Let's say you have a liquid and you're trying to get it from the bottom of a bucket to the top of a cup.
+
+You're trying to get a liquid from the top of a cup to the top of a cup.
+
+You're trying to get a liquid from the",0.057,0.175,0.093,0.587,0.03,0.095,0.0,0.118,2.228,0.615,3,249
+What is the product of 6 and 2?,The product of 6 and 2 is 12.,"What is the product of 6 and 2?
+
+""I have been buying the same products for over a year now and I am still getting my hands on them,"" he said. ""The only thing I am missing is the packaging. I am using a plastic box that is supposed to be a little bit bigger than the box I am using",0.056,0.75,0.095,0.57,0.031,0.094,0.0,0.324,2.856,0.595,3,280
+What type of plant is a skunk cabbage?,"The skunk cabbage (Symplocarpus foetidus) is a perennial, low-growing plant that is native to wetlands, swamps, and streamsides in eastern North America. It is named for its distinctive, pungent odor, which is said to resemble the smell of a skunk. The plant has large, broad leaves and produces small flowers on a fleshy spadix that is enclosed by a hood-like spathe. Skunk cabbage is a member of the Araceae family, which also includes plants like philodendrons and peace lilies.","What type of plant is a skunk cabbage? The following plants are known to grow skunks:
+
+Cabbage
+
+Cabbage leaves
+
+Cabbage plant
+
+Cabbage plants are found in many different places around the world. They are often found in gardens and fields as well as in the ground and have a tendency to fall out",0.016,0.101,0.062,0.699,0.026,0.093,0.0,0.098,2.843,0.687,3,294
+"The Happy Valley Kennel has 4 chickens, 2 dogs, and 5 cats. (Some people in Happy Valley like to keep chickens as pets!) In how many ways can the 11 animals be placed in a row of 11 cages, such that all of the animals of each type are in adjacent cages? (Two animals of the same species are considered distinguishable.)","To solve this problem, we first need to consider each group of animals separately. There are three groups of animals: chickens, dogs, and cats. We can order these groups in 3! ways.
+
+Next, we need to order the individual animals within each group. There are 4! ways to arrange the chickens, 2! ways to arrange the dogs, and 5! ways to arrange the cats.
+
+Multiplying all these values together, we get the total number of ways to arrange the animals: 3! x 4! x 2! x 5! = 34,560.","The Happy Valley Kennel has 4 chickens, 2 dogs, and 5 cats. (Some people in Happy Valley like to keep chickens as pets!) In how many ways can the 11 animals be placed in a row of 11 cages, such that all of the animals of each type are in adjacent cages? (Two animals of the same species are considered distinguishable.)
+
+The animals in the 10 cages are all of the same species, with the exception of the two dogs of the same species. The animals in the 9 cages are all of the same species, with the exception of the two dogs of the same species. The animals in the 8 cages are all",0.042,0.191,0.065,0.716,0.029,0.096,0.0,0.114,2.233,0.58,3,580
+Name two types of desert biomes.,"Two types of desert biomes are hot and dry desert, and cold desert.","Name two types of desert biomes.
+
+In a desert biomes, the game will tell you how to access the biomes. The desert biomes will show you the various types of plants, animals, and other resources you can collect. In addition, the game will tell you which types of plants you can obtain.
+
+",0.05,0.462,0.102,0.526,0.028,0.093,0.333,0.272,2.827,0.699,3,285
+"Given a sentence, convert it into passive voice. The dog barked at the alley cat.",The alley cat was barked at by the dog.,"Given a sentence, convert it into passive voice. The dog barked at the alley cat.
+
+The dog barked at the alley cat.
+
+The dog barked at the alley cat.
+
+The dog barked at the alley cat.
+
+The dog barked at the alley cat.
+
+The dog barked at the alley cat.
+
+The dog bark",0.02,0.556,0.115,0.482,0.026,0.092,0.333,0.177,2.67,0.622,3,265
+Transform the following sentence into the passive voice I bought a book,A book was bought by me.,"Transform the following sentence into the passive voice I bought a book. I read it and I can say it's a great book and I'm excited to read it. It is not just a good book. It's a great book and I'm excited to read it.
+
+Now that I've finished reading this book, I'm sure I will continue reading",0.007,0.333,0.117,0.482,0.027,0.094,0.333,0.357,4.032,0.895,3,292
+Create a dialog between two people who are discussing a scientific phenomenon Hydropower,"Person 1: Hey, have you heard of hydropower? 
+
+Person 2: Yeah, I think that's when you use the energy of flowing water to generate electricity, right?
+
+Person 1: Yes, exactly! The conversion of the energy in the kinetic motion of water into electrical energy.
+
+Person 2: Oh, so like when water goes over a dam and spins the turbines, that also generates electricity.
+
+Person 1: That's one way hydropower works, but there are a lot of other methods we can use to generate hydropower. For example, in coastal regions, they can build tidal barrages which utilize the energy from the rising and falling tides.
+
+Person 2: That's amazing! I did not know that. Guess hydropower is a sustainable and environment-friendly energy source as well.
+
+Person 1: That’s right, it’s a renewable energy source that has minimal pollution and can help reduce greenhouse gas emissions. But, on the downside, building dams is pretty expensive and can disrupt local ecosystems.
+
+Person 2: Yeah, I guess that's right. The benefits definitely outweigh the challenges though, and it would be great if we can continue to develop and explore new ways of using hydropower for generating electricity.
+
+Person 1: Absolutely, and it's not only about generating electricity but also about efficient water management. Harnessed properly, it can prove to be an answer to the global energy crisis.","Create a dialog between two people who are discussing a scientific phenomenon Hydropower and other energy sources are the only means of reducing carbon dioxide emissions.
+
+But it's not the only way to reduce carbon dioxide emissions. There are a number of other ways to do that. The U.S. government's Clean Power Plan, for example, is based on a variety of",0.003,0.072,0.108,0.516,0.028,0.095,0.0,0.053,2.652,0.678,3,356
+Identify the most suitable adverb for the following sentence She works,"""Hard"" is the most suitable adverb for the sentence. The complete sentence would be: ""She works hard.""","Identify the most suitable adverb for the following sentence She works her way up the list of adjectives.
+
+(a) ""She's working her way up the list of adjectives.
+
+""She's working her way up the list of adjectives.""
+
+(b) ""She's working her way up the list of adjectives.""",0.102,0.471,0.07,0.666,0.024,0.094,0.333,0.237,2.763,0.683,3,268
+"Find the main idea of the following passage Climate change is an increasingly contentious global issue. It is already having a drastic effect on the environment and human lives. We are already seeing an increase in extreme weather events and rising sea levels, both of which have a major impact on the planet.",The main idea of the passage is that climate change is an important global issue that is severely impacting the environment and human lives through extreme weather events and rising sea levels.,"Find the main idea of the following passage Climate change is an increasingly contentious global issue. It is already having a drastic effect on the environment and human lives. We are already seeing an increase in extreme weather events and rising sea levels, both of which have a major impact on the planet. The global situation is changing rapidly, but our understanding of it is still very much in its infancy. It is also becoming increasingly difficult to predict, and therefore more difficult to manage. We need to do more to make our environment more resilient, to help us make decisions about our future, and to help",0.116,0.688,0.102,0.53,0.028,0.095,0.0,0.098,2.072,0.596,3,624
+Analyze the tone of the following sentences I am so upset with you right now,"The tone of the sentence ""I am so upset with you right now"" is angry and frustrated.","Analyze the tone of the following sentences I am so upset with you right now.
+
+""I'm sorry. I'm sorry you didn't see the video. I know it was very hard to watch. But we should have been more careful. I'm sorry that it took so long to review it. But we're still going to try to keep this under wraps for",0.12,0.588,0.06,0.725,0.029,0.088,0.0,0.236,2.289,0.507,3,301
+Construct an argument to defend the following statement Alternative energy sources are critical to solving the climate crisis,"Climate change is a global issue that has far-reaching and devastating effects on our planet, including rising temperatures, increased frequency and intensity of weather events, and negative impacts on wildlife and ecosystems. It is primarily caused by the burning of fossil fuels, which releases harmful pollutants into the atmosphere, including carbon dioxide, methane, and nitrous oxide. These greenhouse gases trap heat from the sun, and as their concentration in the atmosphere increases, so does the Earth's temperature. 
+
+In order to combat climate change, it is essential that we transition away from fossil fuels and towards alternative energy sources. Alternative energy sources, such as solar, wind, hydro, and geothermal, generate electricity from renewable sources rather than fossil fuels, and thus produce much lower levels of greenhouse gas emissions. By reducing our carbon footprint through the use of these clean energy sources, we can prevent further warming of the planet and mitigate the harmful effects of climate change.
+
+Moreover, alternative energy sources provide a sustainable and long-term solution to our energy needs. Fossil fuel reserves are finite, and will eventually be depleted, while renewable energy sources can provide a constant and reliable source of power. This not only makes our energy supply more secure and independent, but also helps to reduce our reliance on non-renewable resources.
+
+In conclusion, the adoption of alternative energy sources is critical to addressing the climate crisis. By transitioning towards clean energy sources, we can reduce greenhouse gas emissions, combat the negative effects of climate change, and ensure a sustainable and reliable energy supply for future generations.","Construct an argument to defend the following statement Alternative energy sources are critical to solving the climate crisis. The carbon cycle is the energy source most responsible for the problem. If we want to avoid catastrophic climate change, we need to reduce our carbon footprint.
+
+The basic idea is simple: if we have sufficient carbon to replace our fossil fuel-based energy source, we can reduce our energy consumption",0.007,0.081,0.077,0.644,0.03,0.095,0.0,0.067,1.971,0.588,3,428
+Convert the following sentence into the present continuous tense He reads books,He is reading books.,"Convert the following sentence into the present continuous tense He reads books and books of the Quran, but he is not the author of these books. He is not the author of the Book of Revelation. He is the author of the Book of Revelation. (He has the right to write the Book of the Law, and the right to write the Book of the Prophe",0.014,0.75,0.087,0.591,0.03,0.093,0.0,0.303,4.205,0.918,3,330
+Give an example of a metaphor that uses the following object Stars,"""Her eyes were like bright stars, twinkling with excitement and wonder.""","Give an example of a metaphor that uses the following object Stars of the Covenant, in which the Covenant has a very strong emphasis on the Covenant being a single person and not a group.
+
+{Note: The reference to the Covenant being a single person is a misprint, as it would be more accurately referred to as the ""single person"" if it",0.008,0.091,0.104,0.542,0.03,0.096,0.0,0.196,4.198,0.884,3,334
+Create a description for a person with the following name John,"John is a tall, dark-haired man with a kind smile and a twinkle in his eyes. He has a gentle, caring nature, and he always strives to understand others. He has a passion for learning and exploring new places, experiences and cultures.","Create a description for a person with the following name John Doe.
+
+Name of the person John Doe
+
+Email address John Doe
+
+The name of the person John Doe
+
+The name of the person John Doe
+
+The name of the person John Doe
+
+The name of the person John Doe
+
+The name of the person John",0.01,0.048,0.073,0.663,0.029,0.094,0.0,0.161,2.58,0.643,3,281
+What is the ones digit of 7^35 when written as an integer?,"To find the ones digit of 7 raised to any positive integer n, we should look at the cycle of ones digits of 7^n, which is 7, 9, 3, 1. This cycle repeats every 4 powers of 7. Therefore, we need to find the remainder, R, when n is divided by 4 to determine the ones digit of 7^n. For example, for n = 35, we have 35 divided by 4 equals 8 with a remainder of 3. Thus, the ones digit of 7^35 is the third digit in the cycle which is 3.","What is the ones digit of 7^35 when written as an integer?
+
+The 7^35 number is used to represent the number of letters that can be written in the alphabet.
+
+The numbers 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",0.029,0.117,0.09,0.59,0.03,0.09,0.0,0.109,2.966,0.738,3,210
+"Aim to reduce the following sentence without changing its meaning When he came in, he woke everyone up",He woke everyone upon entering.,"Aim to reduce the following sentence without changing its meaning When he came in, he woke everyone up. He said that if you're lucky, you'll get to see the two of you again. He said that if you've done this before, then you can come back to this world. He said that if you've done this before, then you can come back to this world. He said",0.011,0.6,0.115,0.48,0.026,0.094,0.0,0.403,5.894,1.049,3,339
+Identify the conjunctions in the following sentence She wrote a letter and sealed it,"The conjunction in the given sentence is 'and'. Conjunctions are words that join two or more words, phrases or clauses together, and 'and' is one of the most common conjunctions that is used to combine two or more phrases, clauses or words of similar grammatical type together.","Identify the conjunctions in the following sentence She wrote a letter and sealed it in a book, as a reminder of what she had done. And when she returned to the kitchen, she found that there was nothing there, but the letter.
+
+""I wrote a letter to my sister, and I was going to open the book and get it,"" she said. """,0.019,0.191,0.126,0.43,0.023,0.093,0.0,0.072,2.943,0.743,3,316
+Rewrite the following sentence in the third person I am anxious,He/She is anxious.,"Rewrite the following sentence in the third person I am anxious to see if you're willing to read the first part of this sentence and then please read the second part of this sentence.
+
+We're going to try and make sure we're not talking about how the people who do the writing are really smart. We're talking about how they've come up",0.007,0.0,0.089,0.575,0.029,0.097,0.0,0.197,4.431,0.928,3,333
+Generate a list of business ideas for a food delivery service.,"1. Organic meal delivery: Delivering locally and sustainably sourced, healthy, organic meals to customers' doors.
+
+2. Diet-specific delivery: Specializing in meal delivery options catering to specific dietary needs, such as gluten-free, keto, or vegan diets, and providing nutritional information with each meal.
+
+3. Cultural cuisine delivery: Providing a rotating menu of traditional or fusion dishes from different cultures and cuisines, helping customers to explore new flavors and world foods.
+
+4. Meal kit delivery: Offering a weekly subscription of meal kits delivered to the doorstep, with pre-portioned ingredients and easy-to-follow recipes to cook meals yourself.
+
+5. Farm-to-table delivery: Connecting local farmers with consumers by delivering fresh, seasonal, and locally grown produce and products directly to customers' doors.
+
+6. Family-style meal deliveries: Providing larger, family-sized portions of home-cooked comfort foods delivered to the door, making it easy for busy families to enjoy a quality, home-cooked meal.
+
+7. Health-focused delivery: Using clean, whole food ingredients to create delicious, healthy meals tailored to customers goals like weight loss, muscle gain, or improved overall well-being.
+
+8. Gourmet meal delivery: Delivering high-end, restaurant-quality meals to customers' doors, offering a fine-dining experience in the comfort of their own homes.
+
+9. Frozen food delivery: Providing a convenient solution for busy individuals or families by delivering high-quality, chef-prepared frozen meals that are easy to reheat and enjoy at home.
+
+10. Breakfast delivery: Starting the day off right by delivering fresh, healthy, and delicious breakfast options directly to customers' doors each morning.","Generate a list of business ideas for a food delivery service.
+
+The service should be created and run by a small group of people who are able to understand the concept of food delivery. They should be able to understand the concepts of how the food is produced and eaten and how to deliver the food.
+
+The service should be set up to meet the",0.001,0.07,0.108,0.535,0.031,0.095,0.0,0.052,2.455,0.638,3,341
+Edit the following sentence to improve clarity and flow. The restaurant has great food though the prices are a bit hefty,"Although the food at the restaurant is great, the prices are somewhat expensive.","Edit the following sentence to improve clarity and flow. The restaurant has great food though the prices are a bit hefty and the wait staff is pretty hard to work with. The food is also really good, the drinks are good, the atmosphere is cool, the atmosphere is good, the atmosphere is good, the atmosphere is good, the atmosphere is good, the atmosphere is good, the atmosphere is good, the atmosphere",0.025,0.462,0.069,0.659,0.027,0.095,0.0,0.261,2.936,0.684,3,402
+Imagine you are speaking with a customer who is unsatisfied with the product they bought from you. Construct a response that diffuses the situation.,"Dear customer,
+
+First and foremost, I would like to sincerely apologize for any inconvenience or frustration you have experienced with our product. It is important to us that our customers are fully satisfied with their purchases and we take concerns like yours very seriously.
+
+May I ask you to provide more details about the issues you are facing with the product? That way, we can work together towards finding the best possible solution to address your concerns.
+
+Please rest assured that I am here to assist you and I will do everything in my power to make things right for you. We value your business and appreciate the opportunity to make things right.
+
+Thank you for bringing this matter to our attention.
+
+Sincerely,
+AI Assistant","Imagine you are speaking with a customer who is unsatisfied with the product they bought from you. Construct a response that diffuses the situation.
+
+When I've seen people say they can't do this, I try to explain to them why that's a bad thing. This is the first step to understanding the customer.
+
+If you don't have a customer that has been through a bad experience, you can't respond to them",0.018,0.112,0.092,0.579,0.03,0.096,0.0,0.122,2.275,0.644,3,394
+Explain the concept of a bubble sort algorithm to a non-technical audience.,"Bubble sort is a simple sorting algorithm that works by comparing pairs of adjacent numbers in a list and swapping them if they are in the wrong order. 
+
+Imagine you have an unorganized list of numbers. Think of it like having a handful of differently-sized balls all mixed up. Your goal is to have the balls increase in size from one end of your hand to the other. To do this, you compare two balls right next to each other. If the ball on the right is smaller than the ball on the left, you swap them. Then, you move one ball to the right and compare those two (the second ball and the third ball). If the ball on the right (the third ball) is smaller than the ball on the left (the second ball), you swap them. You keep doing this through the whole list of balls until the end. Once you arrive at the last ball, the largest ball should be located here.
+
+Now, you go back to where you started and do the whole process again. Here's the catch - when you've already found the location for the largest ball, you no longer need to compare it with the ball before it. This means, in your second run of swapping, you don't have to go all the way to the end. You can stop one ball before the end. Now, the second-largest ball is in its rightful location.
+
+This process repeats and you go through the list over and over again, each time comparing one less ball, until you no longer have to make any more swaps. At this point, all your balls are completely organized in order of size from one end to the other. That's how bubble sort works!","Explain the concept of a bubble sort algorithm to a non-technical audience.
+
+This algorithm works by measuring the distance between two points of the graph. The distance between two points of the graph is called the distance between two points of the graph. The graph of a bubble is a graph with a number of points in it. The distance between two points of the graph is",0.001,0.081,0.128,0.436,0.024,0.091,0.0,0.038,2.511,0.692,3,369
+"Classify the following incident as a breach of protocol. Output 1 for breach, and 0 for no breach. Using a school laptop for personal use",1,"Classify the following incident as a breach of protocol. Output 1 for breach, and 0 for no breach. Using a school laptop for personal use, and sending an SMS to the offending school. Input 1: The email address of the offending school, and a phone number. Input 2: The email address of the offending school, and a mobile number. Input 3: The email address of the offending school, and a text message. Input 4",0.004,1.0,0.071,0.68,0.022,0.098,0.0,0.203,11.024,1.094,3,407
+"Given the following input, construct a creative story. A magic bow and arrow","Once upon a time, in a land far, far away, there was a magic bow and arrow. It was said to have been crafted by the wise elves of the forest, imbued with their ancient magic and knowledge. The bow was made of the strongest wood from the enchanted trees, and its string was spun from the finest spider silk. The arrow, on the other hand, was forged in the depths of the mountains, by the dwarves who used their expertise to create the perfect balance of lightness and sharpness.
+
+Legend had it that whoever wielded the magic bow and arrow would be granted the power to defeat any foe and overcome any obstacle. But, as with all great power, it came with a heavy responsibility. Those who used it unwisely would suffer terrible consequences, for the magic bow and arrow were not to be taken lightly.
+
+One day, a young adventurer stumbled upon the magic bow and arrow, hidden away in a secret cave deep in the mountains. He knew of the legends and had heard of its powers, and he decided to take the bow and arrow with him on his journey.
+
+As he traveled across the land, he encountered many challenges and dangers, but he always kept the magic bow and arrow close by. Whenever he was in need, he would draw the bow and aim the arrow, and the magic within would guide him towards his goal.
+
+And so, the young adventurer went on many great adventures, making the impossible possible with the help of the magic bow and arrow. He used its power wisely and became known as one of the greatest heroes of the land.
+
+In the end, the magic bow and arrow were passed down from generation to generation, helping those who were brave enough to use its power for the greater good. And thus, the legend of the magic bow and arrow lived on, a tale of wonder and possibility.","Given the following input, construct a creative story. A magic bow and arrow will not be drawn until the next turn.
+
+Example:
+
+I want to draw a magic bow and arrow. If I draw a magic bow and arrow, then I can draw a magic bow and arrow until the next turn.
+
+When I draw a magic bow and arrow, I",0.003,0.082,0.072,0.665,0.029,0.094,0.667,0.05,2.363,0.656,3,294
+Generate a list of methods to reduce food waste.,"1. Plan your meals - Plan your meals for the week and shop accordingly. This will prevent overbuying and decrease the likelihood of unnecessary food waste.
+
+2. Use leftovers wisely – Be creative in how you use your leftovers, and try to incorporate them into new meals or repurpose them into new dishes.
+
+3. Store food correctly - Ensure that your food is stored properly in the fridge or freezer to extend its shelf life.
+
+4. Understand expiration dates - ""Best before"" and ""use by"" dates can be confusing. Take the time to learn the difference so that you don't throw away food unnecessarily.
+
+5. Donate surplus food – Instead of throwing away leftover food, consider donating it to a local food bank or shelter.
+
+6. Compost waste – Rather than discarding food scraps, compost them instead. This will help reduce waste while also enriching the soil.
+
+7. Monitor food waste - Keep track of the food you throw away so that you can adjust your buying and cooking habits accordingly.
+
+8. Serve smaller portions - Serve food in smaller portions to prevent overeating and reduce the amount of food waste that is produced at mealtimes.
+
+9. Freeze extra ingredients - If you have extra ingredients that you know you won't use before they go bad, freeze them for future use.
+
+10. Learn to preserve – If you have surplus fruits and vegetables, learn how to preserve them by pickling or canning. This will help to extend their shelf life and reduce the amount of food waste.","Generate a list of methods to reduce food waste.
+
+There are several ways to do this. One is to use a function that can be used to create a list of methods to reduce food waste. Another is to use a function that can be used to generate a list of methods to reduce food waste. The list can be created using the following",0.002,0.082,0.049,0.786,0.028,0.094,0.0,0.03,2.455,0.626,3,318
+Propose an idea for a self-driving car.,"Self-driving cars are becoming increasingly popular as technology advances and the demand for safer and more efficient transportation increases. One idea for a self-driving car would be to equip it with advanced sensors and cameras, allowing it to navigate roads safely and autonomously. The car would use machine learning algorithms to analyze road conditions, traffic patterns, and potential hazards, and make real-time decisions about how to respond to these factors.
+
+The car would be able to communicate with other self-driving cars on the road, sharing information and coordinating their movements to reduce traffic congestion and improve safety. The car would be able to adjust its speed and route based on real-time traffic information, and would be able to automatically take detours to avoid traffic jams or accidents.
+
+In addition, the car would be equipped with safety features such as automatic emergency braking, lane departure warnings, and collision avoidance systems, ensuring that the car and its occupants are always safe on the road.
+
+The self-driving car would also have a user-friendly interface, allowing passengers to input their destination and preferred route, while also providing information about the estimated time of arrival and any potential delays. This would make traveling by car more convenient and stress-free, and would allow people to focus on other tasks while the car takes care of the driving.","Propose an idea for a self-driving car.
+
+I've been working on this idea for about a month now, and it's been hard to get past the initial hurdle of writing a design. This is a very hard project to write, because it's not even close to being complete yet. However, I've been working on this idea",0.005,0.054,0.099,0.544,0.029,0.091,0.0,0.073,2.181,0.631,3,294
+Explain the concept of a linear regression model using simple language.,"Linear regression is a way to find the relationship between an independent variable (X) and a dependent variable (Y). Imagine you are trying to predict how long it takes to make a pizza based on its size. The size of the pizza would be X and the time required to make it is Y.
+
+In linear regression, we try to find the best fit line that represents the relationship between X and Y. This means that we are trying to find the line that gets as close as possible to all the data points. 
+
+So in our pizza example, we would collect data on different sizes of pizza and the time it takes to make them. And then we would use linear regression to find the best line that shows how the size of the pizza affects the time needed to make it. Once we have this line, we can use it to predict how long it will take to make a pizza of any size.
+
+Linear regression is commonly used to make predictions and forecasts, and it is a powerful tool for understanding the relationship between different variables.","Explain the concept of a linear regression model using simple language.
+
+A linear regression model is a method of specifying a linear regression model with a parameter value (i.e. its linear regression coefficient). It is defined by the following formula:
+
+(x, y) = (x + y + 1) / (x + y)
+
+",0.004,0.069,0.069,0.679,0.031,0.092,0.0,0.084,2.099,0.592,3,289
+Construct a list of tips to help reduce stress.,"Here is a list of tips that can help reduce stress:
+
+1. Practice relaxation techniques: Try deep breathing, meditation or yoga to help calm the mind and reduce tension in the body.
+
+2. Stay active: Regular exercise can help release stress hormones and improve overall well-being.
+
+3. Get enough sleep: A good night's sleep can help you feel refreshed and better equipped to handle stress.
+
+4. Stay organized: Being organized can help you feel more in control and less overwhelmed.
+
+5. Set priorities: Identify what's important and focus on those things first. Trying to do everything at once can lead to stress.
+
+6. Stay positive: Try to focus on the good things in your life, and remind yourself of your accomplishments and strengths.
+
+7. Limit exposure to stressors: If possible, reduce the amount of stressors in your life, such as limiting time spent with negative people, or avoiding certain situations that cause stress.
+
+8. Take breaks: Take regular breaks from work or other stressful activities to rest and recharge.
+
+9. Stay connected: Social support from family and friends can help you through tough times.
+
+10. Seek help: If stress is becoming overwhelming, seek help from a professional, such as a counselor or therapist.","Construct a list of tips to help reduce stress.
+
+""The best way to help is to get yourself to that point where you feel good,"" says Bhattacharya. ""It is possible to be more relaxed and focused in a way that helps you to become more effective.""
+
+He adds that he has seen some positive results from yoga",0.006,0.089,0.072,0.676,0.025,0.087,0.0,0.061,2.032,0.587,3,300
+"Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Founded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.
+
+Almost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.
+
+Question: What events occurred in 20th century Berlin?","The context provided does not provide specific information about the events that occurred in 20th century Berlin. However, as Berlin has had an eventful history, it is known that the city has undergone frequent and radical changes throughout its history, including in the 20th century, which saw both bright and dark periods.","Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Founded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.
+
+Almost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.
+
+Question: What events occurred in 20th century Berlin?
+
+A. The German state was responsible for the development of Berlin. The government was responsible for the economic and political stability of the city. The federal government was responsible for the security of the city and the economy of the city.
+
+B. The state of Berlin was a powerful and influential",0.061,0.385,0.094,0.583,0.03,0.09,0.0,0.148,2.346,0.65,3,1081
+Create a Twitter post to promote your new product. Alisha's All Natural Jam,Satisfy your cravings with Alisha's All Natural Jam! 🍓🍯 Our newest product is made with the finest ingredients to guarantee a delicious taste. Experience the perfection of natural sweetness in every bite. #AlishasJam #NaturalGoodness #HealthyEating.,"Create a Twitter post to promote your new product. Alisha's All Natural Jam, a delicious, low-fat, gluten-free, vegan, dairy-free and dairy-free jam, is a perfect appetizer to celebrate your birthday.
+
+How to Make Alisha's All Natural Jam
+
+1. Mix together your favorite flavors.
+
+2. Add a",0.058,0.2,0.101,0.546,0.027,0.094,0.0,0.093,3.681,0.823,3,288
+"Given the following input, classify the verb as transitive or intransitive. improve",Improve is an intransitive verb.,"Given the following input, classify the verb as transitive or intransitive. improve(1) improves the sentence (i.e., the sentence is transitive or intransitive)
+
+improve(1) improves the sentence (i.e., the sentence is transitive or intransitive) improve(2) improves the sentence (i.e., the sentence is",0.007,0.2,0.039,0.819,0.026,0.096,0.333,0.184,3.777,0.647,3,300
+Generate a list of marketing strategies to promote a new mobile app.,"Here are some marketing strategies to promote a new mobile app:
+
+1. Social media advertising campaigns: Utilize major social media platforms such as Facebook, Instagram and Twitter to reach a large audience and promote the app.
+
+2. App Store Optimization: Optimize the app's title, description, and keywords to rank higher in app store search results.
+
+3. Influencer marketing: Partner with social media influencers and bloggers to spread the word and increase visibility of the app.
+
+4. Content marketing: Develop useful and informative blog posts, videos, and infographics to attract and engage potential customers.
+
+5. Email marketing: Create targeted email campaigns to promote the app to a specific audience.
+
+6. Referral marketing: Encourage current users to refer their friends and family members to the app in exchange for rewards or incentives.
+
+7. In-app advertising: Advertise the new app within other popular apps to reach a large and relevant audience.
+
+8. Press releases: Develop and distribute press releases to relevant media outlets to gain coverage and attention for the app.
+
+9. Search Engine Marketing: Utilize paid search advertising to target specific keywords and drive traffic to the app's landing page.
+
+10. Event marketing: Host or participate in events, conferences, or webinars to engage with potential customers and promote the app.","Generate a list of marketing strategies to promote a new mobile app.
+
+I've been working on a new app that will use the same mobile app platform as Google Play Store. I'll be releasing it to developers soon, and you can follow along as I write it.
+
+This article is a follow-up to my previous article on the ""Android App",0.009,0.082,0.101,0.544,0.03,0.093,0.0,0.056,2.089,0.557,3,318
+Rewrite the sentence to provide more clarity and flow. Making the decision to rent a house was a wise choice,Opting to rent a house was a prudent decision.,"Rewrite the sentence to provide more clarity and flow. Making the decision to rent a house was a wise choice.
+
+What is the Difference Between a House and a Home?
+
+A home is a place where one's belongings, possessions, and home are shared. A home is a place where one's belongings, possessions, and home are shared. A home is a place where one's belongings,",0.065,0.667,0.107,0.509,0.027,0.091,0.333,0.137,3.468,0.724,3,356
+Give a description of the following customer segment. Online shoppers in the US aged between 18-25,"Online shoppers in the US aged 18-25 represent a young adult, tech-savvy customer segment that frequently engages in e-commerce activities. This age group is likely to be digitally native, having grown up with the internet and being comfortable with technology. They are likely to use various digital platforms and devices to research, compare, and purchase products and services online. They may have different motivations for shopping online, including convenience, variety, and the ability to quickly find and compare the best deals. They may also have high expectations for fast and free shipping, easy returns, and personalized recommendations. This is a valuable customer segment for businesses, as they have a high level of engagement and potential for long-term loyalty.","Give a description of the following customer segment. Online shoppers in the US aged between 18-25, in Europe aged between 18-25, in Australia aged between 18-25 and under and in Canada aged between 18-25 and under, in Japan aged between 18-25 and under and in Korea aged between 18-25 and under and in South Korea aged between 18-25 and under and",0.048,0.136,0.071,0.683,0.027,0.096,0.0,0.079,2.715,0.693,3,347
+"Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Previously, the use of dye-sub printing was limited to industrial or high-end commercial printing. Dye-sub photo printing has been used in medical imaging, graphic arts proofing, security, and broadcast-related applications. Today, it is extremely popular in event photography and photo booths or kiosks that require high-speed, on-demand printing.
+
+Alps Electric produced the first quality dye-sub printers for home consumers in the $500–$1,000 price range, bringing dye-sublimation technology within the reach of a wider audience. (These models were, however, not true page printers, since they used a narrow printhead that swept across the page, like most inkjet printers.) Now there are many dye-sublimation printers on the market starting from as low as $100, especially postcard-sized mobile photo printers.
+
+The ability to produce instant photo prints inexpensively from a small printer has led to dye sublimation solutions supplanting traditional instant photos in some applications, such as ID photography with a card printer.
+
+Several corporations market desktop-size units as stand-alone printers and for print kiosk and photo booth applications. Some of these units are based on generic printers. Some manufacturers, offer software development kits with their printers, suggesting that these companies hope to attract system integrators as a potential market.
+
+Desktop-size standalone dye-sub photo printers are also used by photographers in event photography. The technology allows photographers to produce and sell lab-quality prints immediately during the event they are attending, with a minimal amount of hardware. 
+
+Question: What are the uses of a dye sublimation printer?","Dye sublimation printers are used for industrial or high-end commercial printing, medical imaging, graphic arts proofing, security, broadcast-related applications, event photography, and photo booths or kiosks that require high-speed, on-demand printing. They can produce instant photo prints inexpensively and are popular for ID photography with a card printer. Desktop-size standalone dye-sub photo printers are also used by photographers in event photography, allowing them to produce and sell lab-quality prints immediately during the event they are attending with minimal hardware.","Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Previously, the use of dye-sub printing was limited to industrial or high-end commercial printing. Dye-sub photo printing has been used in medical imaging, graphic arts proofing, security, and broadcast-related applications. Today, it is extremely popular in event photography and photo booths or kiosks that require high-speed, on-demand printing.
+
+Alps Electric produced the first quality dye-sub printers for home consumers in the $500–$1,000 price range, bringing dye-sublimation technology within the reach of a wider audience. (These models were, however, not true page printers, since they used a narrow printhead that swept across the page, like most inkjet printers.) Now there are many dye-sublimation printers on the market starting from as low as $100, especially postcard-sized mobile photo printers.
+
+The ability to produce instant photo prints inexpensively from a small printer has led to dye sublimation solutions supplanting traditional instant photos in some applications, such as ID photography with a card printer.
+
+Several corporations market desktop-size units as stand-alone printers and for print kiosk and photo booth applications. Some of these units are based on generic printers. Some manufacturers, offer software development kits with their printers, suggesting that these companies hope to attract system integrators as a potential market.
+
+Desktop-size standalone dye-sub photo printers are also used by photographers in event photography. The technology allows photographers to produce and sell lab-quality prints immediately during the event they are attending, with a minimal amount of hardware. 
+
+Question: What are the uses of a dye sublimation printer?
+
+Answer: It is used to print the printed image on the side of the booth, and it is used in various applications, such as in conjunction with a photo booth.
+
+Question: What is the most important use of dye-sublimation?
+
+Answer: To print the",0.162,0.772,0.074,0.652,0.029,0.086,0.0,0.141,1.297,0.398,3,2095
+Generate a list of country names in the western hemisphere.,"Here is a list of countries located in the Western Hemisphere:
+
+1. Antigua and Barbuda
+2. Argentina
+3. The Bahamas
+4. Barbados
+5. Belize
+6. Bolivia
+7. Brazil
+8. Canada
+9. Chile
+10. Colombia
+11. Costa Rica
+12. Cuba
+13. Dominica
+14. Dominican Republic
+15. Ecuador
+16. El Salvador
+17. Grenada
+18. Guatemala
+19. Guyana
+20. Haiti
+21. Honduras
+22. Jamaica
+23. Mexico
+24. Nicaragua
+25. Panama
+26. Paraguay
+27. Peru
+28. Saint Kitts and Nevis
+29. Saint Lucia
+30. Saint Vincent and the Grenadines
+31. Suriname
+32. Trinidad and Tobago
+33. United States of America
+34. Uruguay
+35. Venezuela.","Generate a list of country names in the western hemisphere.
+
+The list is sorted by region and country name in the eastern hemisphere.
+
+Country name is a list of country names in the western hemisphere.
+
+Country name is a list of country names in the eastern hemisphere.
+
+Country name is a list of country names in the western hemisphere",0.017,0.1,0.088,0.597,0.03,0.094,0.0,0.089,0.983,0.271,3,336
+Translate the following phrase into French. I miss you,Tu me manques.,"Translate the following phrase into French. I miss you.
+
+French:
+
+I miss you.
+
+In other languages
+
+Language Name Meaning Japanese レイバロー
+
+Kī-tō (レイバロー) French Kī-tō
+
+Kī-tō (レイ",0.011,0.0,0.084,0.608,0.03,0.086,0.333,0.09,7.869,0.991,3,174
+Explain what an API is.,"API is the acronym for Application Programming Interface. It is a set of rules and protocols that enables communication between different software programs or systems. Essentially, it provides a way for different applications to share data and services with one another in a structured and organized manner. An API defines the way that one piece of software can request information or services from another, specifying the format of the request and the response. This allows developers to build programs and applications that can take advantage of the functionality of other systems or services, without having to understand their entire codebase or internal workings. By using an API, developers can focus on building their own programs, while leveraging the capabilities of other systems to provide a richer user experience. In summary, an API can be seen as a translator between two or more separate software systems, enabling them to work together and interact in a seamless and efficient manner.","Explain what an API is. The API is a collection of objects with an API key, a name, and a list of all the available keys. It is an API that is responsible for fetching all the key values from a database.
+
+An API is a collection of objects with an API key, a name, and",0.012,0.12,0.1,0.538,0.029,0.088,0.0,0.046,2.502,0.724,3,267
+Compute the area of a rectangle with length 10cm and width 5cm.,"The area of a rectangle can be calculated by multiplying its length by its width. In this case, the length of the rectangle is given as 10 cm and the width as 5 cm. Therefore, the area of the rectangle with the given dimensions is `10 cm x 5 cm = 50 cm²`.","Compute the area of a rectangle with length 10cm and width 5cm.
+
+The rectangle is placed in a rectangle of size 5cm.
+
+The rectangle is placed in a rectangle of length 5cm and width 5cm.
+
+The rectangle is placed in a rectangle of length 5cm and width 5cm.
+
+The rectangle is placed in a rectangle of",0.075,0.34,0.055,0.739,0.024,0.087,0.0,0.168,1.951,0.631,3,297
+Find the capital of Spain.,The capital of Spain is Madrid.,"Find the capital of Spain.
+
+
+Spain, the United States and the United Kingdom have been in the process of forming a new state. The next step is for the Spanish government to have a state-of-the-art and to establish a new constitutional system. The new system would be based on a constitutional convention, the",0.028,0.667,0.08,0.632,0.029,0.093,0.0,0.474,2.173,0.578,3,308
+Classify the following statement as true or false. The Supreme Court is the highest court in the US.,True,"Classify the following statement as true or false. The Supreme Court is the highest court in the US.
+
+""The right to be free from coercion is a fundamental right of every American.""
+
+This statement is true, but it is not a substitute for the right to equal protection.
+
+A person has a right to be free from coercion when he or she is in the presence of a",0.0,1.0,0.08,0.615,0.03,0.091,0.0,0.323,11.972,1.122,3,353
+Design a database schema to record employee salaries.,"Here is a possible database schema for recording employee salaries:
+
+Table: employees
+- id (primary key)
+- name
+- email
+- department_id (foreign key referencing departments.id)
+
+Table: departments
+- id (primary key)
+- name
+
+Table: salaries
+- id (primary key)
+- employee_id (foreign key referencing employees.id)
+- salary
+- start_date
+- end_date (optional)
+
+The ""employees"" table stores information about each employee, including their name, email address, and department. The ""departments"" table stores information about each department, including its name. The ""salaries"" table stores information about each employee's salary, including the employee's ID, salary amount, and the start and end dates of the salary period.
+
+Note that this schema assumes that each employee is only associated with one department at a time. If an employee can be associated with multiple departments, you may need to modify the schema accordingly. Additionally, you may want to add additional fields to the tables to store more information, such as job titles, employee IDs, or manager information, depending on your specific needs.","Design a database schema to record employee salaries.
+
+If your company is not using a database schema, you can use the following command to generate a database schema to record employee salaries.
+
+$ sqlite3 sqlite3.database -name employee_salary
+
+The worker_salary parameter is a dictionary of the company's",0.002,0.066,0.097,0.552,0.029,0.093,0.0,0.106,2.236,0.64,3,307

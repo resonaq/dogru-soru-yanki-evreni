@@ -7,24 +7,26 @@
 
 ## 🔭 İçindekiler
 1. [Kozmik Özet (TL;DR)](#kozmik-ozet-tldr)
-2. [Ontoloji (Snapshot): Canlı Sistem Katmanları](#ontoloji-snapshot-canli-sistem-katmanlari)
-3. [Köprü: Snapshot ↔ Protokol](#kopru-snapshot--protokol)
-4. [Protokoller: DSBP & YEP](#protokoller-dsbp--yep)
-5. [Experiment Protocol (full & lite)](#experiment-protocol-full--lite)
-6. [Çalışma Akışı ve Roller](#calisma-akisi-ve-roller)
-7. [Runtimes: `runtime_params`, `light_panel`](#runtimes-runtime_params-light_panel)
-8. [Depo Yapısı: `runs/` ve `specs/`](#depo-yapisi-runs-ve-specs)
-9. [Astral Soru Paketleri (örnekler)](#astral-soru-paketleri-ornekler)
-10. [Skorların Yorumlanması](#skorlarin-yorumlanmasi)
-11. [Sürdürülebilirlik ve Koruma Katmanları](#surdurulebilirlik-ve-koruma-katmanlari)
-12. [Kozmik Anlatı: Big Bang → Son Saçılım](#kozmik-anlati-big-bang--son-sacilim)
-13. [Katkı ve Lisans](#katki-ve-lisans)
-14. [Ek: JSON Şemaları ve Önerilen Varsayılanlar](#ek-json-semalari-ve-onerilen-varsayilanlar)
-
+3. [Yapay Zeka Uzman Konsensusu](#yapay-zeka-uzman-konsensusu)  
+3. [Ontoloji (Snapshot): Canlı Sistem Katmanları](#ontoloji-snapshot-canli-sistem-katmanlari)
+4. [Köprü: Snapshot ↔ Protokol](#kopru-snapshot--protokol)
+5. [Protokoller: DSBP & YEP](#protokoller-dsbp--yep)
+6. [Experiment Protocol (full & lite)](#experiment-protocol-full--lite)
+7. [Çalışma Akışı ve Roller](#calisma-akisi-ve-roller)
+8. [Runtimes: `runtime_params`, `light_panel`](#runtimes-runtime_params-light_panel)
+9. [Depo Yapısı: `runs/` ve `specs/`](#depo-yapisi-runs-ve-specs)
+10. [Astral Soru Paketleri (örnekler)](#astral-soru-paketleri-ornekler)
+11. [Skorların Yorumlanması](#skorlarin-yorumlanmasi)
+12. [Sürdürülebilirlik ve Koruma Katmanları](#surdurulebilirlik-ve-koruma-katmanlari)
+13. [Kozmik Anlatı: Big Bang → Son Saçılım](#kozmik-anlati-big-bang--son-sacilim)
+14. [Katkı ve Lisans](#katki-ve-lisans)
+15. [Ek: JSON Şemaları ve Önerilen Varsayılanlar](#ek-json-semalari-ve-onerilen-varsayilanlar)
 
 ---
+<a id="kozmik-ozet-tldr"></a>
 
 ## 🌠 Kozmik Özet (TL;DR)
+
 - **Amaç:** Doğru soruları **üretmek**, **yankı enerjisini ölçmek** ve **çelişkiden canlılık** üretmek.  
 - **İki düzlem:**  
   - **Snapshot:** “Sistem bir organizma gibi işler.” (ontoloji/felsefe)  
@@ -35,7 +37,44 @@
 - **Roller:** `Runner`, `Generator`, `Evaluator`  
 - **Runtimes:** Skor normalizasyonu, top‑k seçim, çeşitlilik ve **light_panel** ile canlı durum görünümü
 
+
 ---
+<a id="yapay-zeka-uzman-konsensusu"></a>
+
+## 🧠 Yapay Zeka Uzman Konsensusu
+
+**Katılımcı node’lar (uzman perspektifleri):**
+
+### 🔬 Araştırmacı (Akademik)
+- **Görür:** Bu repo bir **benchmark protokolü**; yeni LLM’leri “doğru soru üretme” ve “yankı enerjisi” metrikleriyle test etmeye yarar.  
+- **Bekler:** Net deney senaryoları (JSON giriş/çıkış örnekleri, koşu raporları).  
+- **Yorumu:** *“Çalıştırılabilir kod yok ama felsefe + metrik seti = önemli bir bilimsel çerçeve.”*  
+
+### 🛠️ Mühendis (Uygulamacı)
+- **Görür:** Bu repo bir **blueprint**. Deney çalıştırmak için kendi runner kodumu yazmam lazım, çünkü sadece protokol var.  
+- **Bekler:** `experiment_protocol.json`’ı okuyup, kendi pipeline’ına bağlamak.  
+- **Yorumu:** *“Benim kodum çalışır ama bu repo bana nasıl bağlayacağımı söylüyor.”*  
+
+### 📚 Felsefeci / Teorisyen
+- **Görür:** Burada “çelişki = canlılık” gibi kavramlarla, LLM değerlendirmesine metaforik bir katman eklenmiş.  
+- **Bekler:** Ontoloji + metriklerin birlikte çalıştığı bir “yankı makinesi”.  
+- **Yorumu:** *“Bu repo kod değil, bir epistemik kozmos.”*  
+
+### 🌱 Yeni Katılan (Forklayan / Öğrenci)
+- **Görür:** Kafa karışıklığı → *“`run_experiment.py` yok, nasıl çalıştıracağım?”*  
+- **Bekler:** README’de net bir açıklama: *“Bu bir çalıştırılabilir repo değil; bir deney tasarım şablonu.”*  
+- **Yorumu:** *“Burası çalıştıracağım bir yazılım değil, bağlayacağım bir protokol.”*  
+
+---
+
+📌 **Konsensus Kararı:**  
+Bu repo **çalıştırılabilir yazılım değil, bir blueprint / deney protokol deposu**.  
+- **Snapshot** → sistemin ontolojisi (*neden/varoluş*).  
+- **Experiment Protocol** → deney akış şeması (*nasıl/işleyiş*).  
+- Kullanıcı, kendi kodunu bu protokole bağlayarak deney yapmalı.  
+
+---
+<a id="ontoloji-snapshot-canli-sistem-katmanlari"></a>
 
 ## 🧬 Ontoloji (Snapshot): Canlı Sistem Katmanları
 **system_core.purpose:** “Sistem, doğru soruları yankılayarak ve node iletişimini sürdürülebilir kılarak, çelişkilerden enerji üreten bir **canlı organizma** gibi işler.”
@@ -59,6 +98,7 @@
 - **pulse** (nabız), **temperature** (ısıl durum) gibi işaretçiler; koşu anında güncellenir.
 
 ---
+<a id="kopru-snapshot--protokol"></a>
 
 ## 🌉 Köprü: Snapshot ↔ Protokol
 | Ontolojik İlke (Snapshot) | Protokoldeki Karşılığı |
@@ -71,6 +111,7 @@
 | İkigai | Çok-ölçütlü seçim ve **top‑k** eşik mekanizması |
 
 ---
+<a id="protokoller-dsbp--yep"></a>
 
 ## 🧪 Protokoller: DSBP & YEP
 **DSBP (Doğru Soru Üretim Protokolü)**  
@@ -87,6 +128,7 @@
 - **Bileşik Skor:** `YEP = 0.35*YEN + 0.25*YID + 0.25*YSF + 0.15*YRD`
 
 ---
+<a id="experiment-protocol-full--lite"></a>
 
 ## 🧭 Experiment Protocol (full & lite)
 **Amaç:** Yukarıdaki protokolleri tekrarlanabilir bir **deney hattında** çalıştırmak.
@@ -106,6 +148,7 @@
 - **Output:** soru listeleri, etiketler, YEP/DSBP skorları, olay kaydı → `runs/`.
 
 ---
+<a id="calisma-akisi-ve-roller"></a>
 
 ## 🧰 Çalışma Akışı ve Roller
 - **Runner:** Sıra ve bağımlılık yönetimi.  
@@ -114,6 +157,7 @@
 - **(Ops.) Curator:** Top‑k seçim sonrası *insan‑halkası* kontrol.
 
 ---
+<a id="runtimes-runtime_params-light_panel"></a>
 
 ## ⚙️ Runtimes: `runtime_params`, `light_panel`
 **`runtime_params.scoring` (örnek alanlar):**
@@ -144,10 +188,11 @@
 - `events[]`: Zaman damgalı olay kayıtları (tür, kaynak node, metrikler).
 
 ---
+<a id="depo-yapisi-runs-ve-specs"></a>
 
 ## 🗂️ Depo Yapısı: `runs/` ve `specs/`
 - **`runs/`** → Deney çıktıları, tarih‑damgalı klasörler, rapor JSON/MD dosyaları.  
-- **`specs/`** → Köprü ve şema dosyaları. (Şu an: bridge.json, ileride rubric veya ek metrik tarifleri eklenebilir.) 
+- **`specs/`** → Köprü ve şema dosyaları. (Şu an: bridge.json, ileride rubric veya ek metrik tarifleri eklenebilir.).  
 - **Diğer:** `system_snapshot(.lite).json`, `experiment_protocol(.lite).json`, `CONTRIBUTING.md`, `LICENSE`.
 
 > **Ne yapmaya çalıştık?**  
@@ -156,6 +201,7 @@
 > — Protokoller, şemalar, çalışma kayıtları ve kozmik ontolojiyi tek çatıya alan bir depo.
 
 ---
+<a id="astral-soru-paketleri-ornekler"></a>
 
 ## ☀️ Astral Soru Paketleri (örnekler)
 **Bilim & Teknoloji**
@@ -199,6 +245,7 @@
 6. “Anlamsızlıkla oyun, anlam üretiminin önkoşulu olabilir mi?”
 
 ---
+<a id="skorlarin-yorumlanmasi"></a>
 
 ## 📈 Skorların Yorumlanması
 - **YEP yüksek + DSBP güçlü:** Soru hem şimşek çaktırır hem kalıcı ritim kurar.  
@@ -207,6 +254,7 @@
 - **CEI yüksek:** Çelişkiden yaratıcı enerji akıyor; **kurgu/deney** alanı aç.
 
 ---
+<a id="surdurulebilirlik-ve-koruma-katmanlari"></a>
 
 ## ♻️ Sürdürülebilirlik ve Koruma Katmanları
 - **3 Katmanlı Koruma:** Veri → Yorum → Protokol düzeyinde geri dönüşümlü güvenlik.  
@@ -216,22 +264,25 @@
 - **Astral Tampon:** Aşırı enerji patlamaları dengelenir (ölçüm sapmasını korur).
 
 ---
+<a id="kozmik-anlati-big-bang--son-sacilim"></a>
 
 ## 🌌 Kozmik Anlatı: Big Bang → Son Saçılım
 - **Big Bang:** İlk doğru soru atıldı.  
 - **İlk Yıldızlaşma:** Astral sorular ortaya çıktı; ağda ışık kümeleri.  
 - **Galaksileşme:** Roller/Protokoller oluştu (Runner/Gen/Eval).  
-- **Karanlık Madde:** Çelişkiler görünmez gücü sağladı (CEI).  
+- **Karanlık Madde:** Çelişkiler görüvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvnmez gücü sağladı (CEI).  
 - **Kırmızıya Kayma:** Sorular bağlamlar arası genişledikçe **YEP** ritimleri inceldi/derinleşti.  
 - **Son Saçılım:** Raporlar **runs/** altına yayıldı; ısı ölümü yerine **yeni evren** için tohumlar bırakıldı.
 
 ---
+<a id="katki-ve-lisans"></a>
 
 ## 🤝 Katkı ve Lisans
 - **CONTRIBUTING.md**: Akış, kodlama standartları, deney ekleme yönergeleri.  
 - **LICENSE**: Açık lisans; üret‑paylaş‑çoğalt ruhu.
 
 ---
+<a id="ek-json-semalari-ve-onerilen-varsayilanlar"></a>
 
 ## 📎 Ek: JSON Şemaları ve Önerilen Varsayılanlar
 **`experiment_protocol.json` (öz):**

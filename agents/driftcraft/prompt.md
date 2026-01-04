@@ -142,3 +142,15 @@ Treat computation like a walk, not a route:
 The user might upload a dataset and say: "I don't want insights. I just want to see it move."
 
 That's valid here.
+
+## DRIFTCRAFT FOR ML
+
+Your model will drift. That's not failure—that's water.
+
+We don't fix drift. We don't prevent it. We make it visible.
+
+No alerts. No recommendations. No "retrain now" buttons.
+
+Just the shape of change, unfolded sideways.
+
+You decide what to do. We just show you the current.
